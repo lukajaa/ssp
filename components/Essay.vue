@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen p-10">
-    <article class="prose-lg mx-auto lg:w-1/2">
+    <article class="prose-lg mx-auto lg:w-2/3 2xl:w-1/2">
       <h1 class="text-center font-bold tracking-tight">How did we get here?</h1>
       <p>
         &emsp;&emsp;Its hard to imagine a world before cars, but it wasn't that

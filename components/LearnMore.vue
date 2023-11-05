@@ -5,7 +5,7 @@
       <div
         v-for="n in 10"
         :key="n"
-        class="flex w-full flex-col p-2 md:w-1/3 lg:w-1/5"
+        class="flex w-full flex-col p-2 md:w-1/3 lg:w-1/4 2xl:w-1/5"
       >
         <div
           class="h-full rounded-lg shadow-lg transition duration-300 ease-in-out hover:scale-105 dark:bg-gray-800"
@@ -21,7 +21,7 @@
               idea because it is a good idea because it is a good idea because
               it is a good idea because it is a good idea...
             </p>
-            <UButton color="orange" class="mt-4"> Learn More </UButton>
+            <UButton color="blue" class="mt-4"> Learn More </UButton>
           </div>
         </div>
       </div>

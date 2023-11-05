@@ -1,9 +1,9 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: false },
+  devtools: { enabled: true },
   app: {
     head: {
-      title: 'Lukajaa Nuxt Template',
+      title: 'Lucas\'s SSP',
     },
   },
   css: ['@/assets/styles/main.scss'],

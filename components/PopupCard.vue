@@ -1,6 +1,6 @@
 <template>
   <UPopover mode="hover" class="relative inline-flex">
-    <span class="font-bold text-orange-400 hover:text-orange-500">
+    <span class="font-bold text-blue-400 hover:text-blue-500">
       {{ term }}
     </span>
     <template #panel>
