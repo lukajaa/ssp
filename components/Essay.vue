@@ -1,8 +1,7 @@
 <template>
   <div class="min-h-screen p-10">
     <article class="prose-lg mx-auto lg:w-2/3 2xl:w-1/2">
-      <h1 class="text-center font-bold tracking-tight">How did we get here?</h1>
-      <p>
+      <p class="font-sans">
         &emsp;&emsp;Its hard to imagine a world before cars, but it wasn't that
         long ago that city streets were filled with a diverse mix of horse-draw
         carraiges, <PopupCard term="streetcars" /> and pedestrians. In fact, the
@@ -20,11 +19,11 @@
         alt="car census data"
         class="w-full"
       />
-      <p class="text-center text-sm text-gray-500 dark:text-gray-200">
+      <p class="text-center font-sans text-sm text-gray-500 dark:text-gray-200">
         Census data for car production and registration in the United States.
         Registration numbers jumped 290,000% between 1900 and 1927.
       </p>
-      <p>
+      <p class="font-sans">
         &emsp;&emsp;The invention of cars alone wasn't the only factor in
         car-dependency in American cities. There was another factor: the rise of
         the <PopupCard term="suburbs" />. Franklin Delano Roosevelt's New Deal
@@ -43,7 +42,7 @@
         dependency created yet another economic barrier to achieving social
         mobility, keeping millions of Americans in poverty.
       </p>
-      <p>
+      <p class="font-sans">
         &emsp;&emsp;The rise of the suburbs was not only borne out of simple
         economic desires, it also was exacerbated by unfounded fears of crime,
         poverty, and people of color, encompassed by a dislike of so-called
@@ -63,11 +62,11 @@
         alt="redlining map"
         class="w-full"
       />
-      <p class="text-center text-sm text-gray-500 dark:text-gray-200">
+      <p class="text-center font-sans text-sm text-gray-500 dark:text-gray-200">
         A map of redlining in San Francisco. Red areas were deemed "hazardous"
         "definitely declining" and were often home to people of color.
       </p>
-      <p>
+      <p class="font-sans">
         &emsp;&emsp;As highways tore through cities, destroying neighborhoods
         and the diverse mix of people that lived there, cars became the primary
         mode of transportation. New cities and streets were designed around cars
@@ -77,7 +76,7 @@
         wider streets, lots of parking lots, and a lack of public transit and
         good <PopupCard term="bike networks" />.
       </p>
-      <p>
+      <p class="font-sans">
         &emsp;&emsp;By the late 1900s, people began to realize that cars were
         not the best way to get around. They were expensive, dangerous, and bad
         for the environment. Many cities began to invest in public transit and
@@ -86,7 +85,7 @@
         Today, many cities are still struggling to adapt to the
         <PopupCard term="car-centric design" /> of the past.
       </p>
-      <p>
+      <p class="font-sans">
         &emsp;&emsp;Now, many cities are adapting to less car-dependent systems
         within their current infrastructure. This is a difficult task, but it is
         necessary to create a more sustainable future. In San Francisco, for

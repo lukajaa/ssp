@@ -33,5 +33,10 @@
     "img": "https://images.unsplash.com/photo-1493238792000-8113da705763",
     "title": "Car-Centric Design",
     "description": "Car-centric design is when a city is designed around the needs of cars, rather than people. It is often characterized by wide streets, large parking lots, narrow sidewalks, and highways that cut through neighborhoods."
+  },
+  "Vision Zero": {
+    "img": "https://images.unsplash.com/photo-1632495493091-c22c905752ff",
+    "title": "Vision Zero",
+    "description": "Vision Zero is a movement to eliminate traffic deaths and serious injuries. It was started in Sweden in 1997 and has since been adopted by many cities around the world. San Francisco's Vision Zero hones in on under-served and high-risk areas to attempt to eliminate all traffic deaths by 2024."
   }
 }
