@@ -33,7 +33,6 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "@vueuse/motion": "^2.0.0",
-    "aos": "^3.0.0-beta.6"
+    "@vueuse/motion": "^2.0.0"
   }
 }

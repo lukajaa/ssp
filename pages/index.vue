@@ -1,6 +1,17 @@
 <template>
   <div>
-    <div class="bg-[#f7efde] py-20 text-black">
+    <div class="bg-[#f7efde] pt-48 text-center" ref="body">
+      <p class="text-5xl font-black md:text-9xl">
+        Car Dependency in San Francisco
+      </p>
+      <img
+        src="~/assets/svgs/scroll.svg"
+        class="mx-auto mt-12 scale-125 transition duration-300 ease-in-out hover:scale-150"
+        @click="scroll"
+      />
+      <img src="~/assets/svgs/hero.svg" class="-mt-32" />
+    </div>
+    <!-- <div class="bg-[#f7efde] py-20 text-black">
       <div
         class="container mx-auto flex flex-col flex-wrap items-center px-3 md:flex-row"
       >
@@ -33,8 +44,8 @@
         src="~/assets/svgs/buffered_arrow.svg"
         @click="scroll"
       />
-    </div>
-    <div class="p-6">
+    </div> -->
+    <div id="scrollTo" class="p-6">
       <p class="text-center text-2xl">
         Tip: Hover over bolded text to learn more about that topic!
       </p>
@@ -70,10 +81,7 @@
 
 <script setup lang="ts">
 function scroll() {
-  window.scroll({
-    top: window.innerHeight,
-    behavior: 'smooth',
-  });
+  document.getElementById("scrollTo").scrollIntoView();
 }
 
 const hero = ref();
@@ -95,7 +103,6 @@ refs.forEach((ref) => {
       opacity: 1,
       y: 0,
       transition: {
-        delay: 250,
         duration: 1000,
       },
     },
@@ -106,12 +113,10 @@ const { variant } = useMotion(hero, {
   initial: {
     opacity: 0,
     y: 100,
-    scale: 1.25,
   },
   enter: {
     opacity: 1,
     y: 0,
-    scale: 1.25,
     transition: {
       onComplete: () => {
         variant.value = 'levitate';
