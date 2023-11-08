@@ -25,12 +25,15 @@
     "eslint-loader": "^4.0.2",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-vue": "^9.18.1",
+    "firebase": "^10.5.2",
     "nuxt": "^3.8.0",
     "nuxt-gtag": "^1.1.1",
+    "nuxt-vuefire": "^0.4.0",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.6",
     "sass": "^1.69.5",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vuefire": "^3.1.17"
   },
   "dependencies": {
     "@vueuse/motion": "^2.0.0"

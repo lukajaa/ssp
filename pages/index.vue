@@ -1,70 +1,36 @@
 <template>
   <div>
-    <div class="bg-[#f7efde] pt-48 text-center" ref="body">
-      <p class="text-5xl font-black md:text-9xl">
+    <div class="bg-[#f7efde] pt-48 text-center">
+      <p class="text-5xl font-black text-black md:text-9xl">
         Car Dependency in San Francisco
       </p>
-      <img
-        src="~/assets/svgs/scroll.svg"
-        class="mx-auto mt-12 scale-125 transition duration-300 ease-in-out hover:scale-150"
-        @click="scroll"
-      />
-      <img src="~/assets/svgs/hero.svg" class="-mt-32" />
+
+      <img src="~/assets/svgs/hero.svg" class="-mt-16" />
     </div>
-    <!-- <div class="bg-[#f7efde] py-20 text-black">
-      <div
-        class="container mx-auto flex flex-col flex-wrap items-center px-3 md:flex-row"
-      >
-        <div
-          class="flex w-full flex-col items-start justify-center text-center md:w-2/5 md:text-left"
-        >
-          <h1 class="my-4 text-7xl font-bold">
-            Car Dependency in San Francisco
-          </h1>
-          <p class="mb-8 text-5xl">
-            How can you help make San Francisco safer and more accesible?
-          </p>
-        </div>
-        <div class="w-full py-6 text-center md:w-3/5">
-          <img
-            ref="hero"
-            class="z-50 mx-auto w-full md:w-4/5"
-            src="~/assets/svgs/hero.svg"
-            :delay="500"
-          />
-        </div>
-      </div>
-      <img
-        class="mx-auto hidden scale-105 cursor-pointer md:-mt-12 md:block lg:hidden"
-        src="~/assets/svgs/arrow.svg"
-        @click="scroll"
-      />
-      <img
-        class="mx-auto hidden scale-105 cursor-pointer lg:-mt-24 lg:block"
-        src="~/assets/svgs/buffered_arrow.svg"
-        @click="scroll"
-      />
-    </div> -->
     <div id="scrollTo" class="p-6">
       <p class="text-center text-2xl">
-        Tip: Hover over bolded text to learn more about that topic!
+        Tip: Hover over dotted underlined text to learn more about that topic!
       </p>
     </div>
     <div
       class="mx-auto flex w-full flex-col items-center justify-center py-48 text-center md:w-2/3"
     >
       <p ref="one" class="text-7xl">
-        Every year, more than <span class="text-green-600">30 people</span>
-        die from traffic deaths in San Francisco
+        Every year, <span class="text-red-500">more than 30 people</span> die
+        from traffic deaths San Francisco
       </p>
-      <img ref="two" src="~/assets/images/Capture.png" class="mt-12 w-2/3" />
+      <img
+        ref="two"
+        src="~/assets/images/Capture.png"
+        class="mt-12 2xl:w-2/3"
+      />
     </div>
     <div
       class="mx-auto flex w-full flex-col items-center justify-center py-48 text-center md:w-2/3"
     >
       <p ref="three" class="text-7xl">
         In spite of San Francisco's
-        <PopupCard term="Vision Zero" />
+        <PopupCard term="Vision Zero" class="text-green-600" />
         Initiative, traffic deaths reached an 10-year time
         <span class="text-red-500">high</span> in 2022
       </p>
@@ -80,9 +46,17 @@
 </template>
 
 <script setup lang="ts">
-function scroll() {
-  document.getElementById("scrollTo").scrollIntoView();
-}
+import {
+  getFirestore,
+  collection,
+  doc,
+  setDoc,
+  getDoc,
+} from 'firebase/firestore';
+
+const db = getFirestore();
+const surveyResponse = collection(db, 'survey-responses');
+console.log(surveyResponse);
 
 const hero = ref();
 const one = ref();
