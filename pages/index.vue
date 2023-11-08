@@ -1,19 +1,19 @@
 <template>
   <div>
-    <div class="bg-[#f7efde] pt-48 text-center">
+    <div class="font-bubble bg-[#f7efde] pt-48 text-center">
       <p class="text-5xl font-black text-black md:text-9xl">
         Car Dependency in San Francisco
       </p>
 
       <img src="~/assets/svgs/hero.svg" class="-mt-16" />
     </div>
-    <div id="scrollTo" class="p-6">
+    <div id="scrollTo" class="font-bubble p-6">
       <p class="text-center text-2xl">
-        Tip: Hover over dotted underlined text to learn more about that topic!
+        Tip: Hover over blue text to learn more about that topic!
       </p>
     </div>
     <div
-      class="mx-auto flex w-full flex-col items-center justify-center py-48 text-center md:w-2/3"
+      class="font-bubble mx-auto flex w-full flex-col items-center justify-center py-48 text-center md:w-2/3"
     >
       <p ref="one" class="text-7xl">
         Every year, <span class="text-red-500">more than 30 people</span> die
@@ -26,17 +26,17 @@
       />
     </div>
     <div
-      class="mx-auto flex w-full flex-col items-center justify-center py-48 text-center md:w-2/3"
+      class="font-bubble mx-auto flex w-full flex-col items-center justify-center py-48 text-center md:w-2/3"
     >
       <p ref="three" class="text-7xl">
         In spite of San Francisco's
         <PopupCard term="Vision Zero" class="text-green-600" />
-        Initiative, traffic deaths reached an 10-year time
-        <span class="text-red-500">high</span> in 2022
+        Initiative, traffic deaths reached an
+        <span class="text-red-500">10-year high</span> in 2022
       </p>
     </div>
     <div
-      class="mx-auto flex w-full flex-col items-center justify-center py-48 text-center md:w-2/3"
+      class="font-bubble mx-auto flex w-full flex-col items-center justify-center py-48 text-center md:w-2/3"
     >
       <p ref="four" class="text-7xl">How did we get here?</p>
       <img ref="five" src="~/assets/svgs/underline_1.svg" />
@@ -46,18 +46,6 @@
 </template>
 
 <script setup lang="ts">
-import {
-  getFirestore,
-  collection,
-  doc,
-  setDoc,
-  getDoc,
-} from 'firebase/firestore';
-
-const db = getFirestore();
-const surveyResponse = collection(db, 'survey-responses');
-console.log(surveyResponse);
-
 const hero = ref();
 const one = ref();
 const two = ref();

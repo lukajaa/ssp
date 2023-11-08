@@ -3,5 +3,6 @@
     <ThemeSwitcher />
     <slot />
     <Footer />
+    <UNotifications />
   </div>
 </template>

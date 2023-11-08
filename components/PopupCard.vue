@@ -1,16 +1,16 @@
 <template>
   <UPopover mode="hover" class="relative inline-flex text-left">
-    <span class="underline decoration-dashed hover:text-green-700">
+    <span class="text-blue-500 hover:text-blue-600">
       {{ term }}
     </span>
     <template #panel>
       <div class="w-80">
         <img class="my-0 w-full" :src="terms[term].img" />
         <div class="px-4 pb-4 pt-2">
-          <p class="m-0 p-0 font-sans text-lg font-bold">
+          <p class="m-0 p-0 font-sans text-lg font-bold text-black">
             {{ terms[term].title }}
           </p>
-          <p class="my-0 indent-8 font-sans text-sm leading-normal">
+          <p class="my-0 indent-8 font-sans text-sm leading-normal text-black">
             {{ terms[term].description }}
           </p>
         </div>
