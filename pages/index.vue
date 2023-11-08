@@ -37,7 +37,7 @@
       </p>
     </div>
     <div
-      class="font-bubble mx-auto flex w-full flex-col items-center justify-center py-48 text-center md:w-2/3"
+      class="font-bubble mx-auto flex w-full flex-col items-center justify-center pt-48 text-center md:w-2/3"
     >
       <div ref="four">
         <p class="text-7xl">How did we get here?</p>
@@ -45,7 +45,7 @@
       </div>
     </div>
     <Essay />
-    <div class="flex flex-col">
+    <!-- <div class="flex flex-col">
       <div class="flex h-96 flex-row">
         <div class="flex w-1/3 flex-col p-4">
           <div class="h-full w-full rounded-lg bg-gray-950 opacity-50"></div>
@@ -54,7 +54,7 @@
           <div class="h-full w-full rounded-lg bg-gray-950 opacity-50"></div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

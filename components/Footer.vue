@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto w-fit p-8 text-center text-lg">
-    <p class="text-xl">Feedback</p>
+    <p class="text-xl font-bold">Feedback</p>
     <UForm :validate="validate" :state="state" @submit="onSubmit">
       <div class="mt-4 flex flex-row justify-center space-x-8">
         <UFormGroup label="Age" name="age" class="flex flex-col">
