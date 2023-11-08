@@ -9,7 +9,8 @@
     </div>
     <div id="scrollTo" class="font-bubble p-6">
       <p class="text-center text-2xl">
-        Tip: Hover over blue text to learn more about that topic!
+        Tip: Hover over <span class="text-green-500">green</span> text to learn
+        more about that topic!
       </p>
     </div>
     <div
@@ -30,7 +31,7 @@
     >
       <p ref="three" class="text-7xl">
         In spite of San Francisco's
-        <PopupCard term="Vision Zero" class="text-green-600" />
+        <PopupCard term="Vision Zero" />
         Initiative, traffic deaths reached an
         <span class="text-red-500">10-year high</span> in 2022
       </p>
@@ -38,10 +39,22 @@
     <div
       class="font-bubble mx-auto flex w-full flex-col items-center justify-center py-48 text-center md:w-2/3"
     >
-      <p ref="four" class="text-7xl">How did we get here?</p>
-      <img ref="five" src="~/assets/svgs/underline_1.svg" />
+      <div ref="four">
+        <p class="text-7xl">How did we get here?</p>
+        <img src="~/assets/svgs/underline_1.svg" />
+      </div>
     </div>
     <Essay />
+    <div class="flex flex-col">
+      <div class="flex h-96 flex-row">
+        <div class="flex w-1/3 flex-col p-4">
+          <div class="h-full w-full rounded-lg bg-gray-950 opacity-50"></div>
+        </div>
+        <div class="flex w-2/3 flex-col p-4">
+          <div class="h-full w-full rounded-lg bg-gray-950 opacity-50"></div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 

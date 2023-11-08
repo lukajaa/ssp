@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto w-fit p-8 text-center text-lg">
-    <p>Forms Submitted: {{ index }}</p>
+    <p class="text-xl">Feedback</p>
     <UForm :validate="validate" :state="state" @submit="onSubmit">
       <div class="mt-4 flex flex-row justify-center space-x-8">
         <UFormGroup label="Age" name="age" class="flex flex-col">
@@ -58,7 +58,6 @@ const surveyResponsesDoc = doc(
 const surveyResponses = await getDoc(surveyResponsesDoc);
 const surveyResponsesData = ref();
 surveyResponsesData.value = surveyResponses.data();
-console.log(surveyResponsesData.value);
 
 const state = reactive({
   age: undefined,
