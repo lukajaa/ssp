@@ -80,12 +80,15 @@ const validate = (state: any): FormError[] => {
 };
 
 function onSubmit(event: FormSubmitEvent<any>) {
-  // Do something with data
+  // clear state
   surveyResponsesData.value[index.value] = event.data;
   setDoc(surveyResponsesDoc, surveyResponsesData.value);
   submitNotification.add({
     title: 'Feedback submitted!',
     timeout: 3000,
   });
+  state.age = undefined;
+  state.how = undefined;
+  state.thoughts = undefined;
 }
 </script>
