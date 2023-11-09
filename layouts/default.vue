@@ -2,7 +2,7 @@
   <div
     class="min-h-screen bg-white transition duration-300 ease-in-out dark:bg-gray-950"
   >
-    <ThemeSwitcher />
+    <!-- <ThemeSwitcher /> -->
     <slot />
     <Footer />
     <UNotifications />

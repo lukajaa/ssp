@@ -16,10 +16,10 @@
     <div
       class="font-bubble mx-auto flex w-full flex-col items-center justify-center py-48 text-center md:w-2/3"
     >
-      <div class="one">
+      <div ref="one">
         <p class="text-7xl">
           Every year, <span class="text-red-500">more than 30 people</span> die
-          from traffic deaths San Francisco
+          from traffic deaths in San Francisco
         </p>
         <img src="~/assets/images/Capture.png" class="mt-12 2xl:w-2/3" />
       </div>
