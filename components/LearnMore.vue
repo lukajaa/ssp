@@ -1,27 +1,24 @@
 <template>
   <div>
-    <p class="text-center text-5xl font-bold tracking-tight">Learn More</p>
+    <p class="font-bubble text-center text-7xl font-bold tracking-tight">
+      Learn More
+    </p>
+    <img src="~/assets/svgs/underline_1.svg" class="mx-auto" />
     <div class="mt-12 flex flex-wrap px-8">
       <div
-        v-for="n in 10"
+        v-for="n in 4"
         :key="n"
         class="flex w-full flex-col p-2 md:w-1/3 lg:w-1/4 2xl:w-1/5"
       >
-        <div
-          class="h-full rounded-lg shadow-lg transition duration-300 ease-in-out hover:scale-105 dark:bg-gray-800"
-        >
-          <img
-            src="https://images.unsplash.com/photo-1512314889357-e157c22f938d"
-            class="rounded-lg"
-          />
-          <div class="p-4">
-            <p class="text-2xl font-bold">Idea {{ n }}</p>
-            <p>
-              This is a good idea because it is a good idea because it is a good
-              idea because it is a good idea because it is a good idea because
-              it is a good idea because it is a good idea...
+        <div class="h-full rounded ring-4 ring-black dark:ring-white">
+          <div class="font-bubble p-4">
+            <p class="text-3xl font-bold text-green-600">Idea {{ n }}</p>
+            <img src="~/assets/svgs/underline_5.svg" class="-mt-1 w-1/3" />
+            <p class="text-xl">
+              An example call to action for the user to learn more about the
+              idea.
             </p>
-            <UButton color="blue" class="mt-4"> Learn More </UButton>
+            <UButton color="green" class="mt-4 font-sans"> Learn More </UButton>
           </div>
         </div>
       </div>

@@ -2,7 +2,7 @@
   "streetcars": {
     "img": "https://images.unsplash.com/photo-1567523829547-c4871caffea0",
     "title": "Streetcars",
-    "description": "Streetcars are a type of public transportation that run on rails in the street. They were popular in the late 1800s and early 1900s. San Francisco's cable cars are an example of streetcar."
+    "description": "Streetcars are a type of public transportation that run on rails in the street. They were popular in the late 1800s and early 1900s. Most streetcar systems are no longer in use, but some, like San Francisco's cable cars, are still in operation as tourist attractions."
   },
   "jaywalking": {
     "img": "https://images.unsplash.com/photo-1589982178305-eb321a643ca7",
@@ -38,5 +38,10 @@
     "img": "https://images.unsplash.com/photo-1632495493091-c22c905752ff",
     "title": "Vision Zero",
     "description": "Vision Zero is a movement to eliminate traffic deaths and serious injuries. It was started in Sweden in 1997 and has since been adopted by many cities around the world. San Francisco's Vision Zero hones in on under-served and high-risk areas to attempt to eliminate all traffic deaths by 2024."
+  },
+  "public transit": {
+    "img": "https://images.unsplash.com/photo-1462900157664-3ecc405a9341",
+    "title": "Public Transit",
+    "description": "Public transit is a system of transportation that is available to the public. It includes buses, trains, ferries, and streetcars. It is often more affordable than driving and can be more efficient and environmentally friendly in dense cities."
   }
 }

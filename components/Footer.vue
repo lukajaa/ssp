@@ -1,31 +1,72 @@
 <template>
   <div class="mx-auto w-fit p-8 text-center text-lg">
     <p class="text-xl font-bold">Feedback</p>
-    <UForm :validate="validate" :state="state" @submit="onSubmit">
+    <UForm
+      :validate="validate"
+      :state="state"
+      class="space-y-4"
+      @submit="onSubmit"
+    >
       <div class="mt-4 flex flex-row justify-center space-x-8">
-        <UFormGroup label="Age" name="age" class="flex flex-col">
+        <UFormGroup label="Age*" name="age" class="flex flex-col">
           <UInput v-model="state.age" type="number" />
         </UFormGroup>
 
         <UFormGroup
-          label="How did you hear about this website?"
+          label="How did you hear about this website?*"
           name="how"
           class="flex flex-col"
         >
           <UTextarea v-model="state.how" />
         </UFormGroup>
       </div>
-      <div class="mt-4 flex flex-row">
+      <div class="flex flex-row">
         <UFormGroup
-          label="Any thoughts or comments?"
-          name="thoughts"
+          label="Did you learn something new?"
+          name="learning"
           class="flex w-full flex-col"
         >
-          <UTextarea v-model="state.thoughts" autoresize />
+          <UTextarea v-model="state.learning" autoresize />
+        </UFormGroup>
+      </div>
+      <div class="flex flex-row">
+        <UFormGroup
+          label="Did you use the call to action?"
+          name="action"
+          class="flex w-full flex-col"
+        >
+          <UTextarea v-model="state.action" autoresize />
+        </UFormGroup>
+      </div>
+      <div class="flex flex-row">
+        <UFormGroup
+          label="Is there any new content you would like to see? Or any redundant content you would like to remove?"
+          name="content"
+          class="flex w-full flex-col"
+        >
+          <UTextarea v-model="state.content" autoresize />
+        </UFormGroup>
+      </div>
+      <div class="flex flex-row">
+        <UFormGroup
+          label="Are there any stylistic changes you would like to see?"
+          name="style"
+          class="flex w-full flex-col"
+        >
+          <UTextarea v-model="state.style" autoresize />
+        </UFormGroup>
+      </div>
+      <div class="flex flex-row">
+        <UFormGroup
+          label="Any other thoughts or comments?"
+          name="other"
+          class="flex w-full flex-col"
+        >
+          <UTextarea v-model="state.other" autoresize />
         </UFormGroup>
       </div>
 
-      <UButton type="submit" class="mt-4" block> Submit </UButton>
+      <UButton type="submit" block> Submit </UButton>
     </UForm>
     <p class="mt-4">
       By
@@ -62,7 +103,11 @@ surveyResponsesData.value = surveyResponses.data();
 const state = reactive({
   age: undefined,
   how: undefined,
-  thoughts: undefined,
+  learning: undefined,
+  action: undefined,
+  content: undefined,
+  style: undefined,
+  other: undefined,
 });
 
 const index = computed(() => {
@@ -75,7 +120,6 @@ const validate = (state: any): FormError[] => {
   if ((state.age && state.age < 0) || state.age > 100)
     errors.push({ path: 'age', message: 'Enter a valid age' });
   if (!state.how) errors.push({ path: 'how', message: 'Required' });
-  if (!state.thoughts) errors.push({ path: 'thoughts', message: 'Required' });
   return errors;
 };
 
@@ -89,6 +133,10 @@ function onSubmit(event: FormSubmitEvent<any>) {
   });
   state.age = undefined;
   state.how = undefined;
-  state.thoughts = undefined;
+  state.learning = undefined;
+  state.action = undefined;
+  state.content = undefined;
+  state.style = undefined;
+  state.other = undefined;
 }
 </script>

@@ -5,7 +5,7 @@
         Car Dependency in San Francisco
       </p>
 
-      <img src="~/assets/svgs/hero.svg" class="-mt-16" />
+      <img src="~/assets/svgs/hero.svg" class="-mt-4 lg:-mt-16" />
     </div>
     <div id="scrollTo" class="font-bubble p-6">
       <p class="text-center text-2xl">
@@ -14,7 +14,7 @@
       </p>
     </div>
     <div
-      class="font-bubble mx-auto flex w-full flex-col items-center justify-center py-48 text-center md:w-2/3"
+      class="font-bubble mx-auto flex w-full flex-col items-center justify-center py-24 text-center md:w-2/3 lg:py-48"
     >
       <div ref="one">
         <p class="text-7xl">
@@ -25,7 +25,7 @@
       </div>
     </div>
     <div
-      class="font-bubble mx-auto flex w-full flex-col items-center justify-center py-48 text-center md:w-2/3"
+      class="font-bubble mx-auto flex w-full flex-col items-center justify-center py-24 text-center md:w-2/3 lg:py-48"
     >
       <p ref="three" class="text-7xl">
         In spite of San Francisco's
@@ -35,7 +35,7 @@
       </p>
     </div>
     <div
-      class="font-bubble mx-auto flex w-full flex-col items-center justify-center pt-48 text-center md:w-2/3"
+      class="font-bubble mx-auto flex w-full flex-col items-center justify-center pt-24 text-center md:w-2/3 lg:pt-48"
     >
       <div ref="four">
         <p class="text-7xl">How did we get here?</p>
@@ -53,6 +53,7 @@
         </div>
       </div>
     </div> -->
+    <LearnMore />
   </div>
 </template>
 
