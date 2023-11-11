@@ -1,6 +1,6 @@
 <template>
-  <div class="mx-auto w-fit p-8 text-center text-lg">
-    <p class="text-xl font-bold">Feedback</p>
+  <div class="mx-auto w-fit max-w-xl p-8 text-lg">
+    <p class="text-center text-xl font-bold">Feedback</p>
     <UForm
       :validate="validate"
       :state="state"
@@ -68,16 +68,36 @@
 
       <UButton type="submit" block> Submit </UButton>
     </UForm>
-    <p class="mt-4">
-      By
-      <a
-        href="https://www.lucaskchang.com/"
-        target="_blank"
-        class="font-semibold text-blue-400 hover:text-blue-500"
-      >
-        Lucas Chang
-      </a>
-    </p>
+    <div class="mt-4 text-center">
+      <p class="mt-4 text-center">
+        By
+        <a
+          href="https://www.lucaskchang.com/"
+          target="_blank"
+          class="font-semibold text-blue-400 hover:text-blue-500"
+        >
+          Lucas Chang
+        </a>
+      </p>
+      <p>
+        Illustrations from
+        <a
+          href="https://storyset.com/"
+          target="_blank"
+          class="font-semibold text-blue-400 hover:text-blue-500"
+        >
+          Storyset
+        </a>
+        and
+        <a
+          href="https://www.highlights.design/"
+          target="_blank"
+          class="font-semibold text-blue-400 hover:text-blue-500"
+        >
+          Highlights
+        </a>
+      </p>
+    </div>
   </div>
 </template>
 
@@ -98,7 +118,6 @@ const surveyResponsesDoc = doc(
 );
 const surveyResponses = await getDoc(surveyResponsesDoc);
 const surveyResponsesData = ref();
-surveyResponsesData.value = surveyResponses.data();
 
 const state = reactive({
   age: undefined,
@@ -124,7 +143,7 @@ const validate = (state: any): FormError[] => {
 };
 
 function onSubmit(event: FormSubmitEvent<any>) {
-  // clear state
+  surveyResponsesData.value = surveyResponses.data();
   surveyResponsesData.value[index.value] = event.data;
   setDoc(surveyResponsesDoc, surveyResponsesData.value);
   submitNotification.add({

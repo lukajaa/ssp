@@ -2,7 +2,6 @@
   <div class="min-h-screen p-2 font-serif text-lg lg:p-10">
     <div class="mx-auto overflow-hidden rounded-lg lg:w-2/3">
       <video
-        ref="video"
         class="video h-full md:-mt-24 md:h-auto md:w-full"
         autoplay
         controls
