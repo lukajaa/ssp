@@ -43,5 +43,10 @@
     "img": "https://images.unsplash.com/photo-1462900157664-3ecc405a9341",
     "title": "Public Transit",
     "description": "Public transit is a system of transportation that is available to the public. It includes buses, trains, ferries, and streetcars. It is often more affordable than driving and can be more efficient and environmentally friendly in dense cities."
+  },
+  "green": {
+    "img": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df",
+    "title": "Example Card",
+    "description": "You can learn more about different topics by hovering over text like me!"
   }
 }

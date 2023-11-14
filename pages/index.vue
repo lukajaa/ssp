@@ -9,8 +9,8 @@
     </div>
     <div id="scrollTo" class="font-bubble p-6">
       <p class="text-center text-2xl">
-        Tip: Hover over <span class="text-green-500">green</span> text to learn
-        more about that topic!
+        Tip: Hover over <PopupCard term="green" /> text to learn more about that
+        topic!
       </p>
     </div>
     <div
