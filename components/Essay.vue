@@ -42,7 +42,7 @@
       Car dependency created yet another economic barrier to achieving social
       mobility, keeping millions of Americans in poverty.
     </Paragraph>
-    <div class="mx-auto h-[576px] rounded-lg lg:w-2/3 overflow-hidden">
+    <div class="mx-auto h-[576px] overflow-hidden rounded-lg lg:w-2/3">
       <Map />
     </div>
     <Caption>
