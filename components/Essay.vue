@@ -6,6 +6,7 @@
       <p class="text-7xl">How did we get here?</p>
       <img src="~/assets/svgs/underline_1.svg" />
     </div>
+    <CarVideo />
     <Paragraph>
       Its hard to imagine a world before cars, but it wasn't that long ago that
       city streets were filled with a diverse mix of horse-draw carraiges,
