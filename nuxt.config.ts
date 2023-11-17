@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     '@nuxtjs/eslint-module',
     '@nuxt/ui',
     'nuxt-gtag',
+    'nuxt3-leaflet',
     '@vueuse/nuxt',
     '@vueuse/motion/nuxt',
     'nuxt-vuefire',

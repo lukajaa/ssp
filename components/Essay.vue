@@ -42,11 +42,9 @@
       Car dependency created yet another economic barrier to achieving social
       mobility, keeping millions of Americans in poverty.
     </Paragraph>
-    <img
-      src="~/assets/images/Redlining.jpeg"
-      alt="redlining map"
-      class="mx-auto rounded-lg lg:w-2/3"
-    />
+    <div class="mx-auto h-[576px] rounded-lg lg:w-2/3 overflow-hidden">
+      <Map />
+    </div>
     <Caption>
       A map of redlining in San Francisco. Red areas were deemed "hazardous",
       "definitely declining", and were often home to people of color.
@@ -156,7 +154,9 @@ const chartData = ref({
   datasets: [
     {
       label: 'Car Registrations',
-      borderColor: '#EF4444',
+      borderColor: '#000',
+      tension: 0.5,
+      pointRadius: 0,
       data: [
         8000, 14800, 23000, 32920, 55000, 78000, 107000, 142000, 197500, 312000,
         468500, 639500, 944000, 1258062, 1711339, 2445666, 3512996, 4938340,
@@ -169,5 +169,16 @@ const chartData = ref({
 const chartOptions = ref({
   responsive: true,
   maintainAspectRatio: false,
+  options: {
+    plugins: {
+      legend: {
+        display: false,
+      },
+      title: {
+        display: true,
+        text: 'Car Production and Registration in the United States',
+      },
+    },
+  },
 });
 </script>
