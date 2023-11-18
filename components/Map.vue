@@ -10,12 +10,12 @@
     ]"
   >
     <LTileLayer
-      url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}.png"
       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       layer-type="base"
       name="OpenStreetMap"
     />
-    <LImageOverlay :url="imageOverlayUrl" :bounds="bounds" opacity="0.5" />
+    <LImageOverlay :url="imageOverlayUrl" :bounds="bounds" opacity="0.625" />
   </LMap>
 </template>
 

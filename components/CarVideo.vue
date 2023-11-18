@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto mt-8 overflow-hidden rounded-lg lg:w-2/3">
+  <div class="mx-auto mt-8 overflow-hidden rounded-lg lg:w-5/6">
     <video
       class="video h-full md:-mt-24 md:h-auto md:w-full"
       autoplay

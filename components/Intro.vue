@@ -1,17 +1,18 @@
 <template>
   <div>
-    <div class="font-bubble p-6">
+    <div class="p-6">
       <p class="text-center text-2xl">
         Tip: Hover over <PopupCard term="green" /> text to learn more about that
         topic!
       </p>
     </div>
     <div
-      class="font-bubble mx-auto flex w-full flex-col items-center justify-center py-24 text-center md:w-2/3 lg:py-48"
+      class="mx-auto flex w-full flex-col items-center justify-center py-24 text-center md:w-2/3 lg:py-48"
     >
       <div ref="one">
-        <p class="text-7xl">
-          Every year, <span class="text-red-500">more than 30 people</span> die
+        <p class="font-bubble text-7xl">
+          Every year,
+          <span class="font-bubble text-red-500">more than 30 people</span> die
           from traffic deaths in San Francisco
         </p>
         <div class="h-96">
@@ -20,13 +21,13 @@
       </div>
     </div>
     <div
-      class="font-bubble mx-auto flex w-full flex-col items-center justify-center py-24 text-center md:w-2/3 lg:py-48"
+      class="mx-auto flex w-full flex-col items-center justify-center py-24 text-center md:w-2/3 lg:py-48"
     >
-      <p ref="three" class="text-7xl">
+      <p ref="three" class="font-bubble text-7xl">
         In spite of San Francisco's
         <PopupCard term="Vision Zero" />
         Initiative, traffic deaths reached an
-        <span class="text-red-500">10-year high</span> in 2022
+        <span class="font-bubble text-red-500">10-year high</span> in 2022
       </p>
     </div>
   </div>

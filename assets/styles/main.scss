@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Patrick+Hand&display=swap');
 
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
 .font-bubble {
-  font-family: 'Patrick Hand', cursive;
+  font-family: 'Patrick Hand', cursive !important;
 }

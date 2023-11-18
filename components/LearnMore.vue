@@ -14,7 +14,7 @@
           <div class="font-bubble p-4">
             <p class="text-3xl font-bold text-green-600">Idea {{ n }}</p>
             <img src="~/assets/svgs/underline_2.svg" class="-mt-1 w-1/3" />
-            <p class="text-xl">
+            <p class="text-lg">
               An example call to action for the user to learn more about the
               idea.
             </p>

@@ -2,6 +2,7 @@
   <div>
     <Hero />
     <Intro />
+    <BetterEssay />
     <Essay />
     <LearnMore />
   </div>
