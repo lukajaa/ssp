@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto w-fit max-w-xl p-8 text-lg">
-    <p class="text-center text-xl font-bold">Feedback</p>
+    <!-- <p class="text-center text-xl font-bold">Feedback</p>
     <UForm
       :validate="validate"
       :state="state"
@@ -67,7 +67,7 @@
       </div>
 
       <UButton type="submit" block> Submit </UButton>
-    </UForm>
+    </UForm> -->
     <div class="mt-4 text-center">
       <p class="mt-4 text-center">
         By

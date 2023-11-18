@@ -6,9 +6,9 @@
     <img src="~/assets/svgs/underline_1.svg" class="mx-auto" />
     <div class="mt-12 flex flex-wrap px-8">
       <div
-        v-for="n in 4"
+        v-for="n in 6"
         :key="n"
-        class="flex w-full flex-col p-2 md:w-1/3 lg:w-1/4 2xl:w-1/5"
+        class="flex w-full flex-col p-4 md:w-1/3 lg:w-1/4 2xl:w-1/5"
       >
         <div class="h-full rounded ring-4 ring-black dark:ring-white">
           <div class="font-bubble p-4">
