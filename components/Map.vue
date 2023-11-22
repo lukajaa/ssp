@@ -8,6 +8,7 @@
       [37.6, -122.6],
       [37.9, -122.25],
     ]"
+    :use-global-leaflet="false"
   >
     <LTileLayer
       url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
