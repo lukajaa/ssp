@@ -22,10 +22,10 @@
     <div id="scrollTo">
       <p class="text-5xl font-bold">Federal</p>
       <div class="flex flex-row">
-        <div class="flex w-1/4 flex-col">
+        <div class="flex w-1/3 flex-col">
           <img src="~/assets/svgs/legislation_1.svg" alt="Federal" />
         </div>
-        <div class="flex w-3/5 flex-col">
+        <div class="flex w-2/3 flex-col">
           <p class="mt-4 text-2xl font-semibold">List of Federal Legislation</p>
           <p v-for="n in 10" :key="n" class="mt-4 text-lg">
             {{ n }}. <span class="font-bold">Example Legislation</span>

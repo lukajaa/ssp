@@ -10,10 +10,10 @@
       class="mx-auto flex w-full flex-col items-center justify-center py-24 text-center md:w-2/3 lg:py-48"
     >
       <div ref="one">
-        <p class="font-bubble text-7xl">
+        <p class="font-bubble text-7xl tracking-tight">
           Every year,
           <span class="font-bubble text-red-500">more than 30 people</span> die
-          from traffic deaths in San Francisco
+          from traffic incidents in San Francisco
         </p>
         <div class="h-96">
           <Line :data="chartData" :options="chartOptions" />
@@ -23,7 +23,7 @@
     <div
       class="mx-auto flex w-full flex-col items-center justify-center py-24 text-center md:w-2/3 lg:py-48"
     >
-      <p ref="three" class="font-bubble text-7xl">
+      <p ref="three" class="font-bubble text-7xl tracking-tight">
         In spite of San Francisco's
         <PopupCard term="Vision Zero" />
         Initiative, traffic deaths reached an
@@ -47,13 +47,13 @@ const chartData = ref({
     '2020',
     '2021',
     '2022',
-    '2023 (so far)',
   ],
   datasets: [
     {
       label: 'Traffic Fatalities',
       borderColor: '#EF4444',
-      data: [31, 31, 32, 20, 23, 29, 30, 27, 39, 19],
+      tension: 0.1,
+      data: [31, 31, 32, 20, 23, 29, 30, 27, 39],
     },
   ],
 });
