@@ -101,7 +101,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import {
   getFirestore,
   collection,
@@ -158,4 +158,4 @@ function onSubmit(event: FormSubmitEvent<any>) {
   state.style = undefined;
   state.other = undefined;
 }
-</script>
+</script> -->
