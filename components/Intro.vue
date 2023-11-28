@@ -23,7 +23,7 @@
     <div
       class="mx-auto flex w-full flex-col items-center justify-center py-24 text-center md:w-5/6 lg:py-48"
     >
-      <p ref="three" class="font-bubble text-7xl tracking-tight">
+      <p ref="two" class="font-bubble text-7xl tracking-tight">
         In spite of San Francisco's
         <PopupCard term="Vision Zero" />
         Initiative, traffic deaths reached an
@@ -63,9 +63,9 @@ const chartOptions = ref({
 });
 
 const one = ref();
-const three = ref();
+const two = ref();
 
-const refs = [one, three];
+const refs = [one, two];
 
 refs.forEach((ref) => {
   useMotion(ref, {
@@ -77,7 +77,7 @@ refs.forEach((ref) => {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 1000,
+        duration: 500,
       },
     },
   });

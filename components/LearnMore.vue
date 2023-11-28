@@ -1,15 +1,13 @@
 <template>
   <div>
-    <p class="font-bubble text-center text-7xl font-bold tracking-tight">
-      Learn More
-    </p>
+    <p class="text-center text-7xl font-bold tracking-tight">Learn More</p>
     <img src="~/assets/svgs/underline_1.svg" class="mx-auto" />
     <div class="mt-12 flex flex-wrap px-8">
       <div class="flex w-full flex-col p-4 md:w-1/3">
-        <div class="h-full rounded ring-4 ring-black dark:ring-white">
+        <div class="h-full rounded ring-4 ring-black">
           <div class="font-bubble p-4">
             <p class="text-3xl font-bold text-green-600">Local Organizations</p>
-            <p>
+            <p class="text-black">
               Joining local organizations is a great way to get involved in your
               community and make a difference.
               <!-- They often provide opportunities
@@ -24,10 +22,10 @@
         </div>
       </div>
       <div class="flex w-full flex-col p-4 md:w-1/3">
-        <div class="h-full rounded ring-4 ring-black dark:ring-white">
+        <div class="h-full rounded ring-4 ring-black">
           <div class="font-bubble p-4">
             <p class="text-3xl font-bold text-green-600">Legislation</p>
-            <p>
+            <p class="text-black">
               Your voice matters! Contact your local representatives and vote in
               upcoming elections to make your voice heard.
             </p>
@@ -40,10 +38,10 @@
         </div>
       </div>
       <div class="flex w-full flex-col p-4 md:w-1/3">
-        <div class="h-full rounded ring-4 ring-black dark:ring-white">
+        <div class="h-full rounded ring-4 ring-black">
           <div class="font-bubble p-4">
             <p class="text-3xl font-bold text-green-600">Personal Habits</p>
-            <p>
+            <p class="text-black">
               There are many ways to live less car dependent that can save you
               money adn time and even improve your health.
             </p>

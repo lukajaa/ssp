@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      title: "Lucas's SSP",
+      title: 'Car Dependency in San Francisco',
     },
   },
   css: ['@/assets/styles/main.scss'],
@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     'nuxt-vuefire',
   ],
   colorMode: {
-    classSuffix: '',
+    preference: 'light',
   },
   gtag: {
     id: 'G-QNLZ5NY7HH',
@@ -36,4 +36,5 @@ export default defineNuxtConfig({
       appId: '1:909006591676:web:336a686f87209781afa2b9',
     },
   },
+
 });

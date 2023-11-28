@@ -1,11 +1,11 @@
 <template>
-  <div class="mx-auto p-2 lg:px-24 2xl:w-3/4">
+  <div class="mx-auto p-2 text-black lg:px-24 2xl:w-3/4">
     <p class="font-bubble text-center text-7xl">How did we get here?</p>
     <img src="~/assets/svgs/underline_1.svg" class="mx-auto" />
     <CarVideo />
     <div class="mt-8 flex flex-row">
       <div class="flex w-1/3 flex-col justify-center">
-        <img src="~/assets/svgs/horse.svg" class="w-full" />
+        <img ref="one" src="~/assets/svgs/horse.svg" class="w-full" />
       </div>
       <div class="flex w-2/3 flex-col py-4">
         <p class="text-5xl font-bold">Early 1900s</p>
@@ -53,7 +53,7 @@
         </p>
       </div>
       <div class="flex w-1/3 flex-col">
-        <img src="~/assets/svgs/car.svg" class="w-full" />
+        <img ref="two" src="~/assets/svgs/car.svg" class="w-full" />
       </div>
     </div>
     <div>
@@ -70,7 +70,7 @@
     </div>
     <div class="flex flex-row items-center">
       <div class="flex w-1/3 flex-col">
-        <img src="~/assets/svgs/highway.svg" class="w-full" />
+        <img ref="three" src="~/assets/svgs/highway.svg" class="w-full" />
       </div>
       <div class="flex w-2/3 flex-col py-4">
         <p class="text-5xl font-bold">Societal Impacts</p>
@@ -110,12 +110,12 @@
         <img src="~/assets/svgs/arrow_2.svg" class="ml-48 mt-12 w-1/12" />
       </div>
       <div class="flex w-1/3 flex-col">
-        <img src="~/assets/svgs/poop_city.svg" class="w-full" />
+        <img ref="four" src="~/assets/svgs/poop_city.svg" class="w-full" />
       </div>
     </div>
     <div class="flex flex-row">
       <div class="flex w-1/3 flex-col">
-        <img src="~/assets/svgs/revelation.svg" class="w-full" />
+        <img ref="five" src="~/assets/svgs/revelation.svg" class="w-full" />
       </div>
       <div class="flex w-2/3 flex-col py-4">
         <p class="text-5xl font-bold">The Revelation</p>
@@ -153,7 +153,7 @@
         />
       </div>
       <div class="flex w-1/3 flex-col">
-        <img src="~/assets/svgs/fixing.svg" class="w-full" />
+        <img ref="six" src="~/assets/svgs/fixing.svg" class="w-full" />
       </div>
     </div>
   </div>
@@ -161,6 +161,31 @@
 
 <script setup lang="ts">
 import { Line } from 'vue-chartjs';
+
+const one = ref();
+const two = ref();
+const three = ref();
+const four = ref();
+const five = ref();
+const six = ref();
+
+const refs = [one, two, three, four, five, six];
+
+refs.forEach((ref) => {
+  useMotion(ref, {
+    initial: {
+      opacity: 0,
+      y: 100,
+    },
+    visibleOnce: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: 500,
+      },
+    },
+  });
+});
 
 const chartData = ref({
   labels: [
