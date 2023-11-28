@@ -22,7 +22,7 @@
     <div id="scrollTo" class="flex flex-row">
       <div class="flex w-1/2 flex-col">
         <img
-          src="https://www.gobicycletouring.com/wp-content/uploads/2012/11/left.jpg"
+          src="~/assets/images/bike.jpg"
           alt="Local"
           class="w-full rounded-r-lg"
         />
@@ -53,32 +53,31 @@
     </div>
     <div class="flex flex-row">
       <div class="flex w-1/2 flex-col p-4 md:p-8">
-        <p class="text-5xl font-bold">Organization 2</p>
+        <p class="text-5xl font-bold">San Francisco Transit Riders</p>
         <p class="mt-4 text-lg">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          ullamcorper, nisl nec aliquam ultricies, nunc sapien ultricies tortor,
-          vel aliquet quam nisl quis nunc. Nulla facilisi. Nulla facilisi. Nulla
-          facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
-          facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
-          facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
-          facilisi. Nulla facilisi.
+          San Francisco Transit Riders is fighting for an excellent, affordable,
+          and growing public transit system in San Francisco. They advocate for
+          transit that provides equitable access to opportunities for all
+          residents and reduces dependence on private vehicles. Their mission is
+          to make Muni and other transit the preferred choice for more San
+          Franciscans through improved service, accessibility and expansion.
         </p>
         <p class="mt-4 text-lg">
           Website:
           <a
-            href="https://sfbike.org/"
+            href="https://sftransitriders.org/"
             target="_blank"
             class="font-semibold text-blue-400 hover:text-blue-500"
           >
-            Website
+            https://sftransitriders.org/
           </a>
         </p>
       </div>
       <div class="flex w-1/2 flex-col">
         <img
-          src="https://www.gobicycletouring.com/wp-content/uploads/2012/11/left.jpg"
+          src="~/assets/images/train.jpeg"
           alt="Local"
-          class="w-full rounded-l-lg"
+          class="aspect-video w-full rounded-l-lg"
         />
       </div>
     </div>

@@ -26,7 +26,7 @@
       <p ref="two" class="font-bubble text-7xl tracking-tight">
         In spite of San Francisco's
         <PopupCard term="Vision Zero" />
-        Initiative, traffic deaths reached an
+        Initiative, traffic deaths reached a
         <span class="font-bubble text-red-500">10-year high</span> in 2022
       </p>
     </div>
