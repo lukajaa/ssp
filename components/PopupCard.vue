@@ -4,7 +4,7 @@
       {{ term }}
     </span>
     <template #panel>
-      <div class="w-80">
+      <div class="w-80 tracking-normal">
         <img class="my-0 w-full" :src="terms[term].img" />
         <div class="px-4 pb-4 pt-2">
           <p class="m-0 p-0 font-sans text-lg font-bold">
