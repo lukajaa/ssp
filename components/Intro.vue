@@ -7,7 +7,7 @@
       </p>
     </div>
     <div
-      class="mx-auto flex w-full flex-col items-center justify-center py-24 text-center md:w-5/6 lg:py-48"
+      class="mx-auto flex w-full flex-col items-center justify-center py-16 text-center md:w-5/6 lg:py-36"
     >
       <div ref="one">
         <p class="font-bubble text-7xl tracking-tight">
@@ -21,7 +21,7 @@
       </div>
     </div>
     <div
-      class="mx-auto flex w-full flex-col items-center justify-center py-24 text-center md:w-5/6 lg:py-48"
+      class="mx-auto flex w-full flex-col items-center justify-center py-16 text-center md:w-5/6 lg:py-36"
     >
       <p ref="two" class="font-bubble text-7xl tracking-tight">
         In spite of San Francisco's

@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <p class="text-center text-7xl font-bold tracking-tight">Take Action</p>
+  <div class="mt-12">
+    <p class="text-center text-7xl font-bold tracking-tight">Resources</p>
     <img src="~/assets/svgs/underline_1.svg" class="mx-auto" />
     <div class="mt-6 flex flex-wrap px-8">
       <div class="flex w-full flex-col p-4 md:w-1/3">
@@ -43,7 +43,7 @@
             <p class="text-3xl font-bold text-pink-500">Personal Habits</p>
             <p class="text-black">
               There are many ways to live less car dependent that can save you
-              money and time and even improve your health.
+              money adn time and even improve your health.
             </p>
             <NuxtLink to="/habits">
               <UButton color="pink" class="mt-4 font-sans">
