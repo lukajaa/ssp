@@ -19,97 +19,136 @@
         <img src="~/assets/svgs/organizations.svg" alt="Legislation" />
       </div>
     </div>
-    <div id="scrollTo" class="flex flex-row">
-      <div class="flex w-1/2 flex-col">
-        <img
-          src="~/assets/images/bike.jpg"
-          alt="Local"
-          class="w-full rounded-r-lg"
-        />
+    <div class="space-y-12">
+      <div id="scrollTo" class="flex flex-row">
+        <div class="flex w-1/2 flex-col">
+          <img
+            src="~/assets/images/bike.jpg"
+            alt="Local"
+            class="w-full rounded-r-lg"
+          />
+        </div>
+        <div class="flex w-1/2 flex-col p-4 md:p-8">
+          <p class="text-5xl font-bold">San Francisco Bicycle Coalition</p>
+          <p class="mt-4 text-lg">
+            The San Francisco Bicycle Coalition is a non-profit advocacy
+            organization that has been working for over 50 years to promote
+            bicycling and make San Francisco more bike-friendly. They lobby the
+            city government and work with community partners on initiatives like
+            bike lanes, trails, and education programs. The organization is run
+            by a board of directors and staff and relies heavily on volunteers
+            interns. Their mission is to transform SF into a more livable city
+            where bicycling is a safe and popular way of everyday
+            transportation.
+          </p>
+          <p class="mt-4 text-lg">
+            Website:
+            <a
+              href="https://sfbike.org/"
+              target="_blank"
+              class="font-semibold text-blue-400 hover:text-blue-500"
+            >
+              https://sfbike.org/
+            </a>
+          </p>
+        </div>
       </div>
-      <div class="flex w-1/2 flex-col p-4 md:p-8">
-        <p class="text-5xl font-bold">San Francisco Bicycle Coalition</p>
-        <p class="mt-4 text-lg">
-          The San Francisco Bicycle Coalition is a non-profit advocacy
-          organization that has been working for over 50 years to promote
-          bicycling and make San Francisco more bike-friendly. They lobby the
-          city government and work with community partners on initiatives like
-          bike lanes, trails, and education programs. The organization is run by
-          a board of directors and staff and relies heavily on volunteers
-          interns. Their mission is to transform SF into a more livable city
-          where bicycling is a safe and popular way of everyday transportation.
-        </p>
-        <p class="mt-4 text-lg">
-          Website:
-          <a
-            href="https://sfbike.org/"
-            target="_blank"
-            class="font-semibold text-blue-400 hover:text-blue-500"
-          >
-            https://sfbike.org/
-          </a>
-        </p>
+      <div class="flex flex-row">
+        <div class="flex w-1/2 flex-col p-4 md:p-8">
+          <p class="text-5xl font-bold">San Francisco Transit Riders</p>
+          <p class="mt-4 text-lg">
+            San Francisco Transit Riders is fighting for an excellent,
+            affordable, and growing public transit system in San Francisco. They
+            advocate for transit that provides equitable access to opportunities
+            for all residents and reduces dependence on private vehicles. Their
+            mission is to make MUNI and other transit the preferred choice for
+            more San Franciscans through improved service, accessibility and
+            expansion.
+          </p>
+          <p class="mt-4 text-lg">
+            Website:
+            <a
+              href="https://sftransitriders.org/"
+              target="_blank"
+              class="font-semibold text-blue-400 hover:text-blue-500"
+            >
+              https://sftransitriders.org/
+            </a>
+          </p>
+        </div>
+        <div class="flex w-1/2 flex-col">
+          <img
+            src="~/assets/images/train.jpeg"
+            alt="Local"
+            class="aspect-video w-full rounded-l-lg"
+          />
+        </div>
+      </div>
+      <div class="flex flex-row">
+        <div class="flex w-1/2 flex-col">
+          <img
+            src="https://www.gobicycletouring.com/wp-content/uploads/2012/11/left.jpg"
+            alt="Local"
+            class="w-full rounded-r-lg"
+          />
+        </div>
+        <div class="flex w-1/2 flex-col p-4 md:p-8">
+          <p class="text-5xl font-bold">San Francisco Urban Riders</p>
+          <p class="mt-4 text-lg">
+            Transporation for work and errands is important, but so is
+            recreation. San Francisco Urban Riders is a non-profit organization
+            that promotes sustainable trail access for mountain bicyclists and
+            works to expand a network of off-road trails in San Francisco.
+            Ultimately, they want to create a city-wide network of trails that
+            are accessible by bike.
+          </p>
+          <p class="mt-4 text-lg">
+            Website:
+            <a
+              href="https://sfurbanriders.org/"
+              target="_blank"
+              class="font-semibold text-blue-400 hover:text-blue-500"
+            >
+              https://sfurbanriders.org/
+            </a>
+          </p>
+        </div>
       </div>
     </div>
-    <div class="flex flex-row">
-      <div class="flex w-1/2 flex-col p-4 md:p-8">
-        <p class="text-5xl font-bold">San Francisco Transit Riders</p>
-        <p class="mt-4 text-lg">
-          San Francisco Transit Riders is fighting for an excellent, affordable,
-          and growing public transit system in San Francisco. They advocate for
-          transit that provides equitable access to opportunities for all
-          residents and reduces dependence on private vehicles. Their mission is
-          to make Muni and other transit the preferred choice for more San
-          Franciscans through improved service, accessibility and expansion.
-        </p>
-        <p class="mt-4 text-lg">
-          Website:
-          <a
-            href="https://sftransitriders.org/"
-            target="_blank"
-            class="font-semibold text-blue-400 hover:text-blue-500"
-          >
-            https://sftransitriders.org/
-          </a>
-        </p>
+    <p class="mt-12 text-center text-5xl font-bold">How to Get Involved</p>
+    <div class="mt-4 flex flex-wrap">
+      <div class="flex w-full flex-col p-4 md:w-1/3">
+        <div class="rounded p-4 ring-4 ring-black">
+          <p class="text-4xl font-bold">
+            <span class="text-blue-500">Step One:</span> Visit the Site
+          </p>
+          <p class="mt-4 text-lg">
+            Visit the site and take a look at the different organizations that
+            are working to promote a less car-dependent future.
+          </p>
+        </div>
       </div>
-      <div class="flex w-1/2 flex-col">
-        <img
-          src="~/assets/images/train.jpeg"
-          alt="Local"
-          class="aspect-video w-full rounded-l-lg"
-        />
+      <div class="flex w-full flex-col p-4 md:w-1/3">
+        <div class="rounded p-4 ring-4 ring-black">
+          <p class="text-4xl font-bold">
+            <span class="text-blue-500">Step Two:</span> Become a Member
+          </p>
+          <p class="mt-4 text-lg">
+            Click the "Become a Member" button on the site to join the
+            organization and support their mission.
+          </p>
+        </div>
       </div>
-    </div>
-    <div class="flex flex-row">
-      <div class="flex w-1/2 flex-col">
-        <img
-          src="https://www.gobicycletouring.com/wp-content/uploads/2012/11/left.jpg"
-          alt="Local"
-          class="w-full rounded-r-lg"
-        />
-      </div>
-      <div class="flex w-1/2 flex-col p-4 md:p-8">
-        <p class="text-5xl font-bold">Organization 3</p>
-        <p class="mt-4 text-lg">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          ullamcorper, nisl nec aliquam ultricies, nunc sapien ultricies tortor,
-          vel aliquet quam nisl quis nunc. Nulla facilisi. Nulla facilisi. Nulla
-          facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
-          facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
-          facilisi. Nulla facilisi. Nulla facilisi. Nulla facilisi. Nulla
-          facilisi. Nulla facilisi.
-        </p>
-        <p class="mt-4 text-lg">
-          Website:
-          <a
-            href="https://sfbike.org/"
-            target="_blank"
-            class="font-semibold text-blue-400 hover:text-blue-500"
-          >
-            Website
-          </a>
-        </p>
+      <div class="flex w-full flex-col p-4 md:w-1/3">
+        <div class="rounded p-4 ring-4 ring-black">
+          <p class="text-4xl font-bold">
+            <span class="text-blue-500">Step Three:</span> You're Done!
+          </p>
+          <p class="mt-4 text-lg">
+            You will recieve volunteer opportunities and updates on the
+            organization's progress.
+          </p>
+        </div>
       </div>
     </div>
     <BackButton />
