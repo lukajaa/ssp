@@ -147,10 +147,6 @@
           traffic is closed to all private vehicles. This is a great example of
           how cities can adapt to a less car-dependent future.
         </p>
-        <img
-          src="~/assets/svgs/scroll.svg"
-          class="mr-48 mt-12 w-1/12 self-end"
-        />
       </div>
       <div class="flex w-1/3 flex-col">
         <img ref="six" src="~/assets/svgs/fixing.svg" class="w-full" />
