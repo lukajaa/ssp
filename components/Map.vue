@@ -3,10 +3,10 @@
     ref="map"
     :zoom="zoom"
     :center="[37.754691, -122.442433]"
-    min-zoom="11"
+    min-zoom="10"
     :max-bounds="[
-      [37.6, -122.6],
-      [37.9, -122.25],
+      [37, -123],
+      [38, -122],
     ]"
     :use-global-leaflet="false"
   >
@@ -17,6 +17,7 @@
       name="OpenStreetMap"
     />
     <LImageOverlay :url="imageOverlayUrl" :bounds="bounds" opacity="0.625" />
+    <LImageOverlay :url="imageOverlayURL2" :bounds="bounds2" opacity="0.625" />
   </LMap>
 </template>
 
@@ -25,8 +26,15 @@ const zoom = ref(12);
 const imageOverlayUrl = ref(
   'https://cdn.kqed.org/wp-content/uploads/sites/26/2015/07/SF.jpg',
 );
+const imageOverlayURL2 = ref(
+  'https://localwiki.org/oakland/redlining/_files/1937-oaklandberkeleyHOLCmap-redlining.jpg',
+);
 const bounds = ref([
   [37.7, -122.52],
   [37.82, -122.32],
+]);
+const bounds2 = ref([
+  [37.83101, -122.33],
+  [37.715995, -122.1],
 ]);
 </script>

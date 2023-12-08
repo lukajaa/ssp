@@ -22,31 +22,45 @@
     <div id="scrollTo">
       <p class="text-5xl font-bold">Federal</p>
       <div class="flex flex-row">
-        <div class="flex w-1/3 flex-col">
-          <img src="~/assets/svgs/legislation_1.svg" alt="Federal" />
-        </div>
-        <div class="flex w-2/3 flex-col">
-          <p class="mt-4 text-2xl font-semibold">List of Federal Legislation</p>
-          <p v-for="n in 10" :key="n" class="mt-4 text-lg">
-            {{ n }}. <span class="font-bold">Example Legislation</span>
-            <br />
-            This is an example of federal legislation that is working to promote
-            a less car-dependent future.
+        <div class="flex w-full flex-col">
+          <p class="mt-4 text-lg">
+            Here is a list of federal legislation that is currently being
+            considered by Congress. Click on the link to learn more about the
+            bill and how you can get involved.
           </p>
+          <div v-for="(bill, n) of legislation" :key="n">
+            <p class="mt-4">
+              {{ n + 1 }}.
+              <span class="text-xl font-bold">{{ bill.name }}</span>
+              <br />
+              {{ bill.description }}
+            </p>
+            <a
+              :href="bill.url"
+              target="_blank"
+              class="font-semibold text-blue-400 hover:text-blue-500"
+            >
+              Learn More
+            </a>
+          </div>
         </div>
       </div>
     </div>
     <div>
       <p class="text-5xl font-bold">State</p>
+      <p class="mt-4 text-lg">Coming soon</p>
     </div>
     <div>
       <p class="text-5xl font-bold">Local</p>
+      <p class="mt-4 text-lg">Coming soon</p>
     </div>
     <BackButton />
   </div>
 </template>
 
 <script setup lang="ts">
+import legislation from '~/assets/data/legislation.json';
+
 function scroll() {
   document.getElementById('scrollTo')?.scrollIntoView({
     behavior: 'smooth',
