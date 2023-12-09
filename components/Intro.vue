@@ -10,7 +10,7 @@
       class="mx-auto flex w-full flex-col items-center justify-center py-16 text-center md:w-5/6 lg:py-36"
     >
       <div ref="one">
-        <p class="font-bubble text-7xl tracking-tight">
+        <p class="font-bubble text-4xl tracking-tight md:text-7xl">
           Every year,
           <span class="font-bubble text-red-500">more than 30 people</span> die
           from traffic incidents in San Francisco
@@ -23,7 +23,7 @@
     <div
       class="mx-auto flex w-full flex-col items-center justify-center py-16 text-center md:w-5/6 lg:py-36"
     >
-      <p ref="two" class="font-bubble text-7xl tracking-tight">
+      <p ref="two" class="font-bubble text-4xl tracking-tight md:text-7xl">
         In spite of San Francisco's
         <PopupCard term="Vision Zero" />
         Initiative, traffic deaths reached a

@@ -1,13 +1,17 @@
 <template>
   <div class="mx-auto p-2 text-black lg:px-24 2xl:w-3/4">
-    <p class="font-bubble text-center text-7xl">How did we get here?</p>
+    <p class="font-bubble text-center text-4xl md:text-7xl">
+      How did we get here?
+    </p>
     <img src="~/assets/svgs/underline_1.svg" class="mx-auto" />
     <CarVideo />
-    <div class="mt-8 flex flex-row">
-      <div class="flex w-1/3 flex-col justify-center">
+    <div class="mt-8 flex flex-col md:flex-row">
+      <div
+        class="mx-auto flex w-1/2 flex-row justify-center md:w-1/3 md:flex-col"
+      >
         <img ref="one" src="~/assets/svgs/horse.svg" class="w-full" />
       </div>
-      <div class="flex w-2/3 flex-col py-4">
+      <div class="flex w-full flex-col py-4 md:w-2/3">
         <p class="text-5xl font-bold">Early 1900s</p>
         <p class="mt-4 text-lg">
           Its hard to imagine a world before cars, but it wasn't that long ago
@@ -32,8 +36,8 @@
         </Caption>
       </div>
     </div>
-    <div class="flex flex-row">
-      <div class="flex w-2/3 flex-col py-4">
+    <div class="flex flex-col md:flex-row ">
+      <div class="flex w-full flex-col py-4 md:w-2/3">
         <p class="text-5xl font-bold">Post WWII</p>
         <p class="mt-4 text-lg">
           The invention of cars alone wasn't the only factor in car-dependency
@@ -52,7 +56,9 @@
           mobility, keeping millions of Americans in poverty.
         </p>
       </div>
-      <div class="flex w-1/3 flex-col">
+      <div
+        class="mx-auto flex w-1/2 flex-row justify-center md:w-1/3 md:flex-col"
+      >
         <img ref="two" src="~/assets/svgs/car.svg" class="w-full" />
       </div>
     </div>
@@ -68,11 +74,13 @@
         "definitely declining", and were often home to people of color.
       </Caption>
     </div>
-    <div class="flex flex-row items-center">
-      <div class="flex w-1/3 flex-col">
+    <div class="flex flex-col md:flex-row  items-center">
+      <div
+        class="mx-auto flex w-1/2 flex-row justify-center md:w-1/3 md:flex-col"
+      >
         <img ref="three" src="~/assets/svgs/highway.svg" class="w-full" />
       </div>
-      <div class="flex w-2/3 flex-col py-4">
+      <div class="flex w-full flex-col py-4 md:w-2/3">
         <p class="text-5xl font-bold">Societal Impacts</p>
         <p class="mt-4 text-lg">
           The rise of the suburbs was not only borne out of simple economic
@@ -93,8 +101,8 @@
         <img src="~/assets/svgs/arrow_4.svg" class="ml-48 mt-12 w-1/12" />
       </div>
     </div>
-    <div class="flex flex-row">
-      <div class="flex w-2/3 flex-col py-4">
+    <div class="flex flex-col md:flex-row ">
+      <div class="flex w-full flex-col py-4 md:w-2/3">
         <p class="text-5xl font-bold">Long Term Impacts</p>
         <p class="mt-4 text-lg">
           As highways tore through cities, destroying neighborhoods and the
@@ -109,15 +117,19 @@
         </p>
         <img src="~/assets/svgs/arrow_2.svg" class="ml-48 mt-12 w-1/12" />
       </div>
-      <div class="flex w-1/3 flex-col">
+      <div
+        class="mx-auto flex w-1/2 flex-row justify-center md:w-1/3 md:flex-col"
+      >
         <img ref="four" src="~/assets/svgs/poop_city.svg" class="w-full" />
       </div>
     </div>
-    <div class="flex flex-row">
-      <div class="flex w-1/3 flex-col">
+    <div class="flex flex-col md:flex-row ">
+      <div
+        class="mx-auto flex w-1/2 flex-row justify-center md:w-1/3 md:flex-col"
+      >
         <img ref="five" src="~/assets/svgs/revelation.svg" class="w-full" />
       </div>
-      <div class="flex w-2/3 flex-col py-4">
+      <div class="flex w-full flex-col py-4 md:w-2/3">
         <p class="text-5xl font-bold">The Revelation</p>
         <p class="mt-4 text-lg">
           By the late 1900s, people began to realize that cars were not the best
@@ -134,8 +146,8 @@
         <img src="~/assets/svgs/arrow_4.svg" class="ml-48 mt-12 w-1/12" />
       </div>
     </div>
-    <div class="flex flex-row">
-      <div class="flex w-2/3 flex-col py-4">
+    <div class="flex flex-col md:flex-row">
+      <div class="flex w-full flex-col py-4 md:w-2/3">
         <p class="text-5xl font-bold">Fixing the Problem</p>
         <p class="mt-4 text-lg">
           Now, many cities are attempting to adapt to less car-dependent systems
@@ -148,7 +160,9 @@
           how cities can adapt to a less car-dependent future.
         </p>
       </div>
-      <div class="flex w-1/3 flex-col">
+      <div
+        class="mx-auto flex w-1/2 flex-row justify-center md:w-1/3 md:flex-col"
+      >
         <img ref="six" src="~/assets/svgs/fixing.svg" class="w-full" />
       </div>
     </div>
