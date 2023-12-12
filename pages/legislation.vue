@@ -59,30 +59,39 @@
     </div>
     <div class="mt-8 space-y-2">
       <p class="text-5xl font-bold">Contact Your Representative</p>
-      <UInput v-model="name" label="Name" placeholder="Your Name" />
-      <UInput v-model="email" label="Email" placeholder="Your Email" />
-      <URadioGroup
-        v-model="title"
-        legend="Representative or Senator"
-        :options="[
-          { label: 'Representative', value: 'Representative' },
-          { label: 'Senator', value: 'Senator' },
-        ]"
-      />
-      <a
-        href="https://www.congress.gov/members/find-your-member"
-        target="_blank"
-        class="font-semibold text-blue-400 hover:text-blue-500"
-      >
-        Find your representative
-      </a>
-      <UInput
-        v-model="representative"
-        label="Name of Representative"
-        placeholder="Name of your representative"
-      />
-      <UTextarea v-model="template" autoresize></UTextarea>
-      <UButton class="w-full" @click="copyTemplate()"> Copy Template </UButton>
+      <div v-if="selected">
+        <UInput v-model="name" label="Name" placeholder="Your Name" />
+        <UInput v-model="email" label="Email" placeholder="Your Email" />
+        <URadioGroup
+          v-model="title"
+          legend="Representative or Senator"
+          :options="[
+            { label: 'Representative', value: 'Representative' },
+            { label: 'Senator', value: 'Senator' },
+          ]"
+        />
+        <a
+          href="https://www.congress.gov/members/find-your-member"
+          target="_blank"
+          class="font-semibold text-blue-400 hover:text-blue-500"
+        >
+          Find your representative
+        </a>
+        <UInput
+          v-model="representative"
+          label="Name of Representative"
+          placeholder="Name of your representative"
+        />
+        <UTextarea v-model="template" autoresize></UTextarea>
+        <UButton class="w-full" @click="copyTemplate()">
+          Copy Template
+        </UButton>
+      </div>
+      <div v-else>
+        <p class="mt-4 text-lg">
+          Select a bill to get an email template to send to your representative
+        </p>
+      </div>
     </div>
     <!--
     <div>
@@ -119,8 +128,7 @@ function copyTemplate() {
 }
 
 const template = computed(() => {
-  return `
-${new Date().toLocaleDateString()}
+  return `${new Date().toLocaleDateString()}
 ${name.value}
 35 Keyes Ave
 San Francisco, CA 94129
