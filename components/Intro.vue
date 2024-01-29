@@ -1,9 +1,16 @@
 <template>
   <div>
-    <div class="p-6">
-      <p class="text-center text-2xl">
-        Tip: Hover over <PopupCard term="green" /> text to learn more about that
-        topic!
+    <div class="mx-auto p-6 text-center text-xl md:w-11/12">
+      <p class="text-2xl font-bold">About this Website</p>
+      <p>
+        Here, you will find a brief overview of the history of car dependency
+        and many resources and interactive visualizations to help you learn more
+        about the topic. Scroll down to get started! (Or scroll to the bottom if
+        you don't need an introduction)
+      </p>
+      <p class="mt-4">
+        <span class="font-bold">Tip:</span> Hover over
+        <PopupCard term="green" /> text to learn more about that topic!
       </p>
     </div>
     <div

@@ -59,7 +59,7 @@
     </div>
     <div class="mt-8 space-y-2">
       <p class="text-5xl font-bold">Contact Your Representative</p>
-      <div v-if="selected">
+      <div v-if="selected" class="space-y-4">
         <UInput v-model="name" label="Name" placeholder="Your Name" />
         <UInput v-model="email" label="Email" placeholder="Your Email" />
         <URadioGroup
@@ -83,6 +83,11 @@
           placeholder="Name of your representative"
         />
         <UTextarea v-model="template" autoresize></UTextarea>
+        <p>
+          Consider adding a personal note to your email to make it more
+          impactful. You could talk about your experience in your own city and
+          with transportation, or why you think this bill is important.
+        </p>
         <UButton class="w-full" @click="copyTemplate()">
           Copy Template
         </UButton>

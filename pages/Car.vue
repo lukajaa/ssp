@@ -1,9 +1,13 @@
 <template>
   <div class="px-2 py-12 text-center">
     <p class="mb-2 text-center text-3xl font-bold">Transportation Efficiency</p>
-    <p class="text-center">
+    <p class="mx-auto text-center md:w-2/3 md:text-left md:indent-8">
       This visualization shows the efficiency of different modes of
-      transportation.
+      transportation. Though cars are much faster than walking and biking, they
+      take up far more space and often only contain one person. Trains are the
+      most efficient mode of transportation, given they come frequently and are
+      well used. This simulation has cars and trains moving at 30 mph, bikes
+      moving at 12mph, and walkers moving at 3mph.
     </p>
     <p class="mt-4 text-3xl font-bold">Efficiency</p>
     <canvas id="canvas" class="mx-auto mt-4" width="800" height="400" />

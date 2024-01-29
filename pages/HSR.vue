@@ -3,10 +3,14 @@
     <p class="mb-2 text-center text-3xl font-bold">
       National High Speed Rail Model Scorer
     </p>
-    <p class="text-center">
-      Add metro areas to the map and watch the network grow!
+    <p class="mx-auto text-center md:w-2/3 md:text-left md:indent-8">
+      Add metro areas to the map and watch the network grow! A network will
+      automatically be created between the cities you select. An overall score
+      will be calculated based on the population of the cities, the distance
+      between them, and the number of cities in the network. The score itself is
+      arbitrary, but it is a good way to compare different networks.
     </p>
-    <p class="mb-2 font-bold">Select your CSAs:</p>
+    <p class="mb-2 font-bold">Select your metro areas:</p>
     <Multiselect
       v-model="selectedCSAs"
       :options="cities"

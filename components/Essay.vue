@@ -74,7 +74,7 @@
         "definitely declining", and were often home to people of color.
       </Caption>
     </div>
-    <div class="flex flex-col md:flex-row  items-center">
+    <div class="flex flex-col items-center md:flex-row">
       <div
         class="mx-auto flex w-1/2 flex-row justify-center md:w-1/3 md:flex-col"
       >
@@ -181,21 +181,21 @@ const six = ref();
 
 const refs = [one, two, three, four, five, six];
 
-refs.forEach((ref) => {
-  useMotion(ref, {
-    initial: {
-      opacity: 0,
-      y: 100,
-    },
-    visibleOnce: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        delay: 500,
-      },
-    },
-  });
-});
+// refs.forEach((ref) => {
+//   useMotion(ref, {
+//     initial: {
+//       opacity: 0,
+//       y: 100,
+//     },
+//     visibleOnce: {
+//       opacity: 1,
+//       y: 0,
+//       transition: {
+//         delay: 500,
+//       },
+//     },
+//   });
+// });
 
 const chartData = ref({
   labels: [
