@@ -1,6 +1,8 @@
 <template>
-  <div class="p-2 md:p-12">
-    <div class="flex flex-row">
+  <div>
+    <div
+      class="flex flex-row bg-gradient-to-b from-yellow-100 to-white p-2 md:p-12"
+    >
       <div class="flex w-1/2 flex-col items-center justify-center">
         <div>
           <p class="text-8xl font-bold">Legislation</p>
@@ -19,7 +21,7 @@
         <img src="~/assets/svgs/legislation.svg" alt="Legislation" />
       </div>
     </div>
-    <div id="scrollTo">
+    <div id="scrollTo" class="px-2 md:px-12">
       <p class="text-5xl font-bold">Federal</p>
       <div class="flex flex-row">
         <div class="flex w-full flex-col">
@@ -57,7 +59,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-8 space-y-2">
+    <div class="mt-8 space-y-2 px-2 md:px-12">
       <p class="text-5xl font-bold">Contact Your Representative</p>
       <div v-if="selected" class="space-y-4">
         <UInput v-model="name" label="Name" placeholder="Your Name" />

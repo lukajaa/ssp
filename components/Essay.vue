@@ -36,7 +36,7 @@
         </Caption>
       </div>
     </div>
-    <div class="flex flex-col md:flex-row ">
+    <div class="flex flex-col md:flex-row">
       <div class="flex w-full flex-col py-4 md:w-2/3">
         <p class="text-5xl font-bold">Post WWII</p>
         <p class="mt-4 text-lg">
@@ -70,8 +70,9 @@
         <Map />
       </div>
       <Caption>
-        A map of redlining in San Francisco. Red areas were deemed "hazardous",
-        "definitely declining", and were often home to people of color.
+        A map of redlining in San Francisco and Oakland. Red areas were deemed
+        "hazardous", "definitely declining", and were often home to people of
+        color.
       </Caption>
     </div>
     <div class="flex flex-col items-center md:flex-row">
@@ -101,7 +102,7 @@
         <img src="~/assets/svgs/arrow_4.svg" class="ml-48 mt-12 w-1/12" />
       </div>
     </div>
-    <div class="flex flex-col md:flex-row ">
+    <div class="flex flex-col md:flex-row">
       <div class="flex w-full flex-col py-4 md:w-2/3">
         <p class="text-5xl font-bold">Long Term Impacts</p>
         <p class="mt-4 text-lg">
@@ -123,7 +124,7 @@
         <img ref="four" src="~/assets/svgs/poop_city.svg" class="w-full" />
       </div>
     </div>
-    <div class="flex flex-col md:flex-row ">
+    <div class="flex flex-col md:flex-row">
       <div
         class="mx-auto flex w-1/2 flex-row justify-center md:w-1/3 md:flex-col"
       >

@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="flex flex-row p-2 md:p-12">
+    <div
+      class="flex flex-row bg-gradient-to-b from-cyan-100 to-white p-2 md:p-12"
+    >
       <div class="flex w-1/2 flex-col items-center justify-center">
         <div>
           <p class="text-8xl font-bold">Local Organizations</p>
@@ -112,6 +114,97 @@
               https://sfurbanriders.org/
             </a>
           </p>
+        </div>
+      </div>
+      <div class="flex flex-row">
+        <div class="flex w-1/2 flex-col p-4 md:p-8">
+          <p class="text-5xl font-bold">
+            Metropolitation Transporation Commission
+          </p>
+          <p class="mt-4 text-lg">
+            The Metropolitation Transporation Commission (MTC) was created by
+            the California Legislature in 1970 to plan, finance and coordinate
+            the Bay Area's transportation system. The Commission's scope over
+            the years has expanded to address other regional issues, including
+            housing and development.
+          </p>
+          <p class="mt-4 text-lg">
+            Website:
+            <a
+              href="https://mtc.ca.gov/about-mtc/what-mtc"
+              target="_blank"
+              class="font-semibold text-blue-400 hover:text-blue-500"
+            >
+              https://mtc.ca.gov/about-mtc/what-mtc
+            </a>
+          </p>
+        </div>
+        <div class="flex w-1/2 flex-col">
+          <img
+            src="https://images.unsplash.com/photo-1517210067403-d86a5703516f"
+            alt="Local"
+            class="aspect-video w-full rounded-l-lg"
+          />
+        </div>
+      </div>
+      <div class="flex flex-row">
+        <div class="flex w-1/2 flex-col">
+          <img
+            src="https://images.unsplash.com/photo-1609959368651-1efbbca988ea"
+            alt="Local"
+            class="w-full rounded-r-lg"
+          />
+        </div>
+        <div class="flex w-1/2 flex-col p-4 md:p-8">
+          <p class="text-5xl font-bold">Bicycle Advisory Committee</p>
+          <p class="mt-4 text-lg">
+            "The BAC works to make bicycling safer and more accessible to and
+            usable by all, to end traffic violence, and to prevent climate
+            change." -- San Francisco Bicycle Coalition
+          </p>
+          <p class="mt-4 text-lg">
+            Website:
+            <a
+              href="https://www.sf.gov/departments/bicycle-advisory-committee"
+              target="_blank"
+              class="font-semibold text-blue-400 hover:text-blue-500"
+            >
+              https://www.sf.gov/departments/bicycle-advisory-committee
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-row">
+        <div class="flex w-1/2 flex-col p-4 md:p-8">
+          <p class="text-5xl font-bold">Connect SF</p>
+          <p class="mt-4 text-lg">
+            ConnectSF is a collaboration between the SFMTA, SF Planning and
+            SFCTA to develop a coordinated long-term transportation vision and
+            plan for San Francisco through 2050. It involves establishing a
+            50-year public vision, analyzing future needs based on existing
+            plans, developing concepts for transit and streets, prioritizing
+            projects in the SFTP, codifying policies and projects in the
+            Transportation Element, and informing the regional Plan Bay Area
+            2050 to create an equitable, sustainable and effective
+            transportation system for the coming decades.
+          </p>
+          <p class="mt-4 text-lg">
+            Website:
+            <a
+              href="https://connectsf.org/"
+              target="_blank"
+              class="font-semibold text-blue-400 hover:text-blue-500"
+            >
+              https://connectsf.org/
+            </a>
+          </p>
+        </div>
+        <div class="flex w-1/2 flex-col">
+          <img
+            src="https://images.unsplash.com/photo-1560880941-f6c3c074f9a5"
+            alt="Local"
+            class="aspect-video w-full rounded-l-lg"
+          />
         </div>
       </div>
     </div>
