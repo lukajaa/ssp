@@ -1,12 +1,12 @@
 <template>
   <div>
-    <div class="mx-auto p-6 text-center text-xl md:w-11/12">
-      <p class="text-2xl font-bold">About this Website</p>
-      <p>
+    <div class="mx-auto p-6 text-center text-2xl md:w-11/12">
+      <p class="text-4xl font-bold">About this Website</p>
+      <p class="text-left indent-8">
         Here, you will find a brief overview of the history of car dependency
         and many resources and interactive visualizations to help you learn more
-        about the topic. Scroll down to get started! (Or scroll to the bottom if
-        you don't need an introduction)
+        about the topic. Scroll down to learn more and find ways to get involved
+        at the bottom.
       </p>
       <p class="mt-4">
         <span class="font-bold">Tip:</span> Hover over
@@ -78,7 +78,7 @@ refs.forEach((ref) => {
   useMotion(ref, {
     initial: {
       opacity: 0,
-      y: 400,
+      y: 200,
     },
     visibleOnce: {
       opacity: 1,

@@ -69,17 +69,15 @@
       <UButton type="submit" block> Submit </UButton>
     </UForm> -->
     <div class="mt-4 text-center">
-      <p class="mt-4 text-center">
+      <p class="mt-4">
         By
         <a
           href="https://www.lucaskchang.com/"
           target="_blank"
           class="font-semibold text-blue-400 hover:text-blue-500"
         >
-          Lucas Chang
+          Lucas Chang.
         </a>
-      </p>
-      <p>
         Illustrations from
         <a
           href="https://storyset.com/"
@@ -95,6 +93,15 @@
           class="font-semibold text-blue-400 hover:text-blue-500"
         >
           Highlights
+        </a>
+      </p>
+      <p>
+        Question? Email
+        <a
+          href="mailto:lchang24@bayschoolfs.org"
+          class="font-semibold text-blue-400 hover:text-blue-500"
+        >
+          lchang24@bayschoolsf.org
         </a>
       </p>
     </div>

@@ -180,7 +180,7 @@ const four = ref();
 const five = ref();
 const six = ref();
 
-const refs = [one, two, three, four, five, six];
+// const refs = [one, two, three, four, five, six];
 
 // refs.forEach((ref) => {
 //   useMotion(ref, {
