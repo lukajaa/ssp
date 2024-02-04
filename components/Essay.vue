@@ -15,17 +15,21 @@
         <p class="text-5xl font-bold">Early 1900s</p>
         <p class="mt-4 text-lg">
           Its hard to imagine a world before cars, but it wasn't that long ago
-          that city streets were filled with a diverse mix of horse-draw
-          carraiges,
+          that city streets were filled with a diverse mix of horse-drawn
+          carriages,
           <PopupCard term="streetcars" /> and pedestrians. In fact, the first
           automobile was invented in 1885, and it wasn't until the 1920s that
           cars became a common sight on city streets. In the video above, you
           can see the streets of San Francisco in 1906. The idea of sidewalks
           was not yet a thing, and pedestrians and cars shared the same space.
-          However, as cars became more popular, the auto industry began
-          campaigning for more space for cars. Among other things, this led to
-          the creation of the term <PopupCard term="jaywalking" /> and the idea
-          that pedestrians should be confined to sidewalks.
+          Pedestrians would weave in and out of traffic, and cars would often
+          have to stop to let people cross the street, keeping speeds low and
+          streets safer. However, as cars became more popular, the auto industry
+          began campaigning for more space for cars. Among other things, this
+          led to the creation of the term <PopupCard term="jaywalking" /> and
+          the idea that pedestrians should be confined to sidewalks. Despite
+          seeming like a safe and logical idea, this was the beginning of the
+          end for safe streets.
         </p>
         <div class="mx-auto h-96 w-full">
           <Line :data="chartData" :options="chartOptions" />
@@ -44,7 +48,7 @@
           in American cities. There was another factor: the rise of the
           <PopupCard term="suburbs" />. The New Deal began the process of
           suburbanization by introducing longer government-backed mortgages
-          which drastically increased the homeownership rate in America. In the
+          which drastically increased the home ownership rate in America. In the
           two decades between 1940 and 1960, the share of the country's
           population living in suburbs rose to 30%. The allure of an affluent,
           stable, and safe environment drove many middle-class white families to
@@ -114,7 +118,8 @@
           life in many cities. This resulted in many things we can still see
           today: wider streets, lots of parking lots, and a lack of
           <PopupCard term="public transit" /> and good
-          <PopupCard term="bike networks" />.
+          <PopupCard term="bike networks" />. All of these things have made
+          increased traffic fatalities, pollution, and a lack of public space.
         </p>
         <img src="~/assets/svgs/arrow_2.svg" class="ml-48 mt-12 w-1/12" />
       </div>
@@ -141,7 +146,7 @@
           their
           <PopupCard term="car-centric design" />. Furthermore, the love of cars
           was already deeply ingrained in American culture. The car was and
-          still stands as a symbol of freedom and independence,and is the
+          still stands as a symbol of freedom and independence, and is the
           default mode of transportation for most Americans.
         </p>
         <img src="~/assets/svgs/arrow_4.svg" class="ml-48 mt-12 w-1/12" />
@@ -157,8 +162,10 @@
           certain streets are closed to any non-resident or delivery traffic.
           Furthermore, on many main streets, their are dedicated lanes for bus
           and bike traffic. On Market Street, one of the biggest streets in SF,
-          traffic is closed to all private vehicles. This is a great example of
-          how cities can adapt to a less car-dependent future.
+          traffic is closed to all private vehicles. Additionally, the city
+          maintains a strong bikeshare and public transit system through MUNI
+          and BART. This is a great example of how cities can adapt to a less
+          car-dependent future.
         </p>
       </div>
       <div

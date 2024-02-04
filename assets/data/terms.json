@@ -7,27 +7,27 @@
   "jaywalking": {
     "img": "https://images.unsplash.com/photo-1589982178305-eb321a643ca7",
     "title": "Jaywalking",
-    "description": "Jaywalking is a term created by the auto industry to encourage pedestrians to stay off space meant for cars. It is when a pedestrian crosses the street outside of a crosswalk. It is illegal in the United States but not in many other countries."
+    "description": "Jaywalking is a term created by the auto industry to encourage pedestrians to stay off space meant for cars. It is when a pedestrian crosses the street outside of a crosswalk. It is illegal in the United States but not in many other countries. However, a recent California law removed any penalty for jaywalking."
   },
   "suburbs": {
     "img": "https://images.unsplash.com/photo-1524813686514-a57563d77965",
     "title": "Suburbs",
-    "description": "Suburbs areas within a city's metropolitan area, not part of the car city. They are usually less dense than the core city and zoned for single-family homes. They are often connected to the core city by highways that transport commuters to and from work."
+    "description": "Suburbs are areas within a city's metropolitan area, that are not part of the center city. They are sprawling and zoned for cookie-cutter single-family homes. They are connected to the core city by highways that transport commuters to and from work."
   },
   "redlining": {
     "img": "https://images.unsplash.com/photo-1597774424920-b3207c701b4d",
     "title": "Redlining",
-    "description": "Redlining is the process in which banks mark different neighborhoods based on a scale of desirability. It was widely used to keep neighborhood communities racially and socio-economically homogenous. Majority Black neighborhoods were often marked as undesirable and denied loans."
+    "description": "Redlining is the process in which banks mark different neighborhoods based on a scale of desirability. In the 1900s, it was widely used to keep neighborhood communities racially and socio-economically homogenous. Majority Black neighborhoods were often marked as undesirable and denied loans, stifling economic growth."
   },
   "highway": {
     "img": "https://images.unsplash.com/photo-1465447142348-e9952c393450",
     "title": "Interstate Highway System",
-    "description": "The Interstate Highway System is a network of highways that connect major cities across the United States. It was created in 1956 by President Eisenhower."
+    "description": "The Interstate Highway System is a network of highways that connect major cities across the United States. It was created in 1956 by President Eisenhower and cost hundreds of billions of modern dollars, causing it to be cited as one of the 'hidden subsidies' of car culture."
   },
   "bike networks": {
     "img": "https://images.unsplash.com/photo-1567745576348-ab42cfd6281a",
     "title": "Bike Networks",
-    "description": "Bike networks are a system of bike lanes and paths that connect different parts of a city. They come in many forms including protected bike lanes, bike boulevards, and bike paths. Ideally, they are raised or separated from car traffic, but often they are just painted lines on the street."
+    "description": "Bike networks are a system of bike lanes and paths that connect different parts of a city. They come in many forms including protected bike lanes, bike boulevards, and bike paths. Ideally, they are raised or separated from car traffic, but often they are just painted lines on the street. They can also include bike share programs and bike parking."
   },
   "car-centric design": {
     "img": "https://images.unsplash.com/photo-1493238792000-8113da705763",

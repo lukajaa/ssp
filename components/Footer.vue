@@ -98,7 +98,7 @@
       <p>
         Question? Email
         <a
-          href="mailto:lchang24@bayschoolfs.org"
+          href="mailto:lchang24@bayschoolsf.org"
           class="font-semibold text-blue-400 hover:text-blue-500"
         >
           lchang24@bayschoolsf.org

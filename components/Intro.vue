@@ -59,7 +59,6 @@ const chartData = ref({
     {
       label: 'Traffic Fatalities',
       borderColor: '#EF4444',
-      tension: 0.1,
       data: [31, 31, 32, 20, 23, 29, 30, 27, 39],
     },
   ],
