@@ -62,8 +62,34 @@
     <div class="mt-8 space-y-2 px-2 md:px-12">
       <p class="text-5xl font-bold">Contact Your Representative</p>
       <div v-if="selected" class="space-y-4">
-        <UInput v-model="name" label="Name" placeholder="Your Name" />
-        <UInput v-model="email" label="Email" placeholder="Your Email" />
+        <div class="flex flex-row space-x-4">
+          <UInput
+            v-model="name"
+            label="Name"
+            placeholder="Your Name"
+            class="w-1/2"
+          />
+          <UInput
+            v-model="email"
+            label="Email"
+            placeholder="Your Email"
+            class="w-1/2"
+          />
+        </div>
+        <div class="flex flex-row space-x-4">
+          <UInput
+            v-model="address"
+            label="Address"
+            placeholder="Your Address"
+            class="w-1/2"
+          />
+          <UInput
+            v-model="zip"
+            label="Zip Code"
+            placeholder="Your Zip Code"
+            class="w-1/2"
+          />
+        </div>
         <URadioGroup
           v-model="title"
           legend="Representative or Senator"
@@ -129,6 +155,8 @@ const name = ref('');
 const email = ref('');
 const title = ref('');
 const representative = ref('');
+const address = ref('');
+const zip = ref('');
 
 function copyTemplate() {
   navigator.clipboard.writeText(template.value);
@@ -137,14 +165,14 @@ function copyTemplate() {
 const template = computed(() => {
   return `${new Date().toLocaleDateString()}
 ${name.value}
-35 Keyes Ave
-San Francisco, CA 94129
+${address.value}
+San Francisco, CA ${zip.value}
 ${email.value}
 
-The Honorable ${title.value} ${representative.value}
+The Honorable${title.value} ${representative.value}
 House of Representatives
 
-Dear ${title.value} ${representative.value},
+Dear${title.value} ${representative.value},
 
 My name is ${
     name.value

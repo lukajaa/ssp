@@ -24,17 +24,17 @@
 <script setup lang="ts">
 const zoom = ref(12);
 const imageOverlayUrl = ref(
-  'https://cdn.kqed.org/wp-content/uploads/sites/26/2015/07/SF.jpg',
+  "https://cdn.kqed.org/wp-content/uploads/sites/26/2015/07/SF.jpg",
 );
 const imageOverlayURL2 = ref(
-  'https://localwiki.org/oakland/redlining/_files/1937-oaklandberkeleyHOLCmap-redlining.jpg',
+  "https://localwiki.org/oakland/redlining/_files/1937-oaklandberkeleyHOLCmap-redlining.jpg",
 );
 const bounds = ref([
   [37.7, -122.52],
   [37.82, -122.32],
 ]);
 const bounds2 = ref([
-  [37.83101, -122.33],
+  [37.85101, -122.32],
   [37.715995, -122.1],
 ]);
 </script>
