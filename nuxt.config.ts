@@ -3,10 +3,11 @@ export default defineNuxtConfig({
   site: {
     url: 'https://bikeandb.us',
     name: 'Car Dependency in San Francisco',
-    description: 'Welcome to my awesome site!',
+    description: 'Learn about the history of car dependency in San Francisco with a brief overview of the city\'s transportation history complete with maps and graphs. Utilize this knowledge with relevant legislation and local organizations. Expand your knowledge with interactive datasets and visualizations.',
     defaultLocale: 'en',
   },
   ssr: false,
+  ogImage: { enabled: false },
   devtools: { enabled: true },
   app: {
     head: {
