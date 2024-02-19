@@ -1,5 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  site: {
+    url: 'https://bikeandb.us',
+    name: 'Car Dependency in San Francisco',
+    description: 'Welcome to my awesome site!',
+    defaultLocale: 'en',
+  },
   ssr: false,
   devtools: { enabled: true },
   app: {
@@ -19,6 +25,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@vueuse/motion/nuxt',
     'nuxt-vuefire',
+    '@nuxtjs/seo'
   ],
   colorMode: {
     preference: 'light',
