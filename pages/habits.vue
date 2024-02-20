@@ -12,11 +12,12 @@
         <img
           src="~/assets/svgs/arrow_7.svg"
           class="mx-auto transition duration-300 ease-in-out hover:scale-105"
+          alt="scroll arrow"
           @click="scroll()"
         />
       </div>
       <div class="flex w-1/2 flex-col">
-        <img src="~/assets/svgs/habits.svg" alt="Legislation" />
+        <img src="~/assets/svgs/habits.svg" alt="happy people" />
       </div>
     </div>
     <BackButton />

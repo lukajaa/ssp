@@ -1,7 +1,7 @@
 <template>
   <div>
     <p class="text-center text-7xl font-bold tracking-tight">Take Action</p>
-    <img src="~/assets/svgs/underline_1.svg" class="mx-auto" />
+    <img src="~/assets/svgs/underline_1.svg" class="mx-auto" alt="underline" />
     <div class="mt-6 flex flex-wrap px-8">
       <div class="flex w-full flex-col p-4 md:w-1/2">
         <div class="h-full rounded ring-4 ring-black">

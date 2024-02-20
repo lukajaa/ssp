@@ -3,13 +3,18 @@
     <p class="font-bubble text-center text-4xl md:text-7xl">
       How did we get here?
     </p>
-    <img src="~/assets/svgs/underline_1.svg" class="mx-auto" />
+    <img src="~/assets/svgs/underline_1.svg" class="mx-auto" alt="underline" />
     <CarVideo />
     <div class="mt-8 flex flex-col md:flex-row">
       <div
         class="mx-auto flex w-1/2 flex-row justify-center md:w-1/3 md:flex-col"
       >
-        <img ref="one" src="~/assets/svgs/horse.svg" class="w-full" />
+        <img
+          ref="one"
+          src="~/assets/svgs/horse.svg"
+          class="w-full"
+          alt="horserider"
+        />
       </div>
       <div class="flex w-full flex-col py-4 md:w-2/3">
         <p class="text-5xl font-bold">Early 1900s</p>
@@ -63,13 +68,21 @@
       <div
         class="mx-auto flex w-1/2 flex-row justify-center md:w-1/3 md:flex-col"
       >
-        <img ref="two" src="~/assets/svgs/car.svg" class="w-full" />
+        <img ref="two" src="~/assets/svgs/car.svg" class="w-full" alt="car" />
       </div>
     </div>
     <div>
-      <img src="~/assets/svgs/arrow_3.svg" class="-mt-12 ml-12 w-1/2" />
+      <img
+        src="~/assets/svgs/arrow_3.svg"
+        class="-mt-12 ml-12 w-1/2"
+        alt="swooshing arrow"
+      />
       <p class="font-bubble text-center text-7xl">Redlining Map</p>
-      <img src="~/assets/svgs/underline_1.svg" class="mx-auto" />
+      <img
+        src="~/assets/svgs/underline_1.svg"
+        class="mx-auto"
+        alt="underline"
+      />
       <div class="mx-auto mt-8 h-[576px] overflow-hidden rounded-lg lg:w-2/3">
         <Map />
       </div>
@@ -83,7 +96,12 @@
       <div
         class="mx-auto flex w-1/2 flex-row justify-center md:w-1/3 md:flex-col"
       >
-        <img ref="three" src="~/assets/svgs/highway.svg" class="w-full" />
+        <img
+          ref="three"
+          src="~/assets/svgs/highway.svg"
+          class="w-full"
+          alt="highway"
+        />
       </div>
       <div class="flex w-full flex-col py-4 md:w-2/3">
         <p class="text-5xl font-bold">Societal Impacts</p>
@@ -103,7 +121,11 @@
           still home to many black people and is one of the poorest
           neighborhoods in the city.
         </p>
-        <img src="~/assets/svgs/arrow_4.svg" class="ml-48 mt-12 w-1/12" />
+        <img
+          src="~/assets/svgs/arrow_4.svg"
+          class="ml-48 mt-12 w-1/12"
+          alt="down arrow"
+        />
       </div>
     </div>
     <div class="flex flex-col md:flex-row">
@@ -121,19 +143,33 @@
           <PopupCard term="bike networks" />. All of these things have made
           increased traffic fatalities, pollution, and a lack of public space.
         </p>
-        <img src="~/assets/svgs/arrow_2.svg" class="ml-48 mt-12 w-1/12" />
+        <img
+          src="~/assets/svgs/arrow_2.svg"
+          class="ml-48 mt-12 w-1/12"
+          alt="down arrow"
+        />
       </div>
       <div
         class="mx-auto flex w-1/2 flex-row justify-center md:w-1/3 md:flex-col"
       >
-        <img ref="four" src="~/assets/svgs/poop_city.svg" class="w-full" />
+        <img
+          ref="four"
+          src="~/assets/svgs/poop_city.svg"
+          class="w-full"
+          alt="dilapidated city"
+        />
       </div>
     </div>
     <div class="flex flex-col md:flex-row">
       <div
         class="mx-auto flex w-1/2 flex-row justify-center md:w-1/3 md:flex-col"
       >
-        <img ref="five" src="~/assets/svgs/revelation.svg" class="w-full" />
+        <img
+          ref="five"
+          src="~/assets/svgs/revelation.svg"
+          class="w-full"
+          alt="refreshed city"
+        />
       </div>
       <div class="flex w-full flex-col py-4 md:w-2/3">
         <p class="text-5xl font-bold">The Revelation</p>
@@ -149,7 +185,11 @@
           still stands as a symbol of freedom and independence, and is the
           default mode of transportation for most Americans.
         </p>
-        <img src="~/assets/svgs/arrow_4.svg" class="ml-48 mt-12 w-1/12" />
+        <img
+          src="~/assets/svgs/arrow_4.svg"
+          class="ml-48 mt-12 w-1/12"
+          alt="down arrow"
+        />
       </div>
     </div>
     <div class="flex flex-col md:flex-row">
@@ -171,7 +211,12 @@
       <div
         class="mx-auto flex w-1/2 flex-row justify-center md:w-1/3 md:flex-col"
       >
-        <img ref="six" src="~/assets/svgs/fixing.svg" class="w-full" />
+        <img
+          ref="six"
+          src="~/assets/svgs/fixing.svg"
+          class="w-full"
+          alt="people on bench"
+        />
       </div>
     </div>
   </div>

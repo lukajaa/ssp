@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   site: {
     url: 'https://bikeandb.us',
     name: 'Car Dependency in San Francisco',
-    description: 'Learn about the history of car dependency in San Francisco with a brief overview of the city\'s transportation history complete with maps and graphs. Utilize this knowledge with relevant legislation and local organizations. Expand your knowledge with interactive datasets and visualizations.',
+    description:
+      'Learn about the history of car dependency in San Francisco with a brief overview of the city\'s transportation history complete with maps and graphs. Utilize this knowledge with relevant legislation and local organizations. Expand your knowledge with interactive datasets and visualizations.',
     defaultLocale: 'en',
   },
   ssr: false,
@@ -26,7 +27,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     '@vueuse/motion/nuxt',
     'nuxt-vuefire',
-    '@nuxtjs/seo'
+    '@nuxtjs/seo',
   ],
   colorMode: {
     preference: 'light',
@@ -44,5 +45,4 @@ export default defineNuxtConfig({
       appId: '1:909006591676:web:336a686f87209781afa2b9',
     },
   },
-
 });
