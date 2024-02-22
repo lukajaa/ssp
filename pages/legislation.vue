@@ -14,6 +14,7 @@
         <img
           src="~/assets/svgs/arrow_5.svg"
           class="mx-auto mt-8 transition duration-300 ease-in-out hover:scale-105"
+          alt="scroll arrow"
           @click="scroll()"
         />
       </div>

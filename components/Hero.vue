@@ -5,7 +5,11 @@
     <p class="text-5xl font-black tracking-tight text-black md:text-9xl">
       Car Dependency in San Francisco
     </p>
-    <img ref="hero" src="~/assets/svgs/hero.svg" class="-mt-4 lg:-mt-16" />
+    <img
+      src="~/assets/svgs/hero.svg"
+      class="-mt-4 lg:-mt-16"
+      alt="cityscape hero image"
+    />
   </div>
 </template>
 

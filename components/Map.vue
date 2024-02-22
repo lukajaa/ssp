@@ -11,7 +11,7 @@
     :use-global-leaflet="false"
   >
     <LTileLayer
-      url="https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
+      url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       layer-type="base"
       name="OpenStreetMap"
@@ -24,10 +24,10 @@
 <script setup lang="ts">
 const zoom = ref(12);
 const imageOverlayUrl = ref(
-  "https://cdn.kqed.org/wp-content/uploads/sites/26/2015/07/SF.jpg",
+  'https://cdn.kqed.org/wp-content/uploads/sites/26/2015/07/SF.jpg',
 );
 const imageOverlayURL2 = ref(
-  "https://localwiki.org/oakland/redlining/_files/1937-oaklandberkeleyHOLCmap-redlining.jpg",
+  'https://localwiki.org/oakland/redlining/_files/1937-oaklandberkeleyHOLCmap-redlining.jpg',
 );
 const bounds = ref([
   [37.7, -122.52],
