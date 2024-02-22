@@ -19,7 +19,7 @@
         />
       </div>
       <div class="flex w-1/2 flex-col">
-        <img src="~/assets/svgs/legislation.svg" alt="Legislation" />
+        <img src="~/assets/svgs/legislation.svg" alt="legislation" />
       </div>
     </div>
     <div id="scrollTo" class="px-2 md:px-12">
