@@ -7,6 +7,7 @@
       <img
         src="~/assets/svgs/train.svg"
         class="mx-auto h-2/3 transition duration-300 ease-in-out hover:scale-105"
+        alt="train"
       />
     </NuxtLink>
     <NuxtLink to="/Car" class="flex w-full flex-col p-4 md:w-1/3">
@@ -16,6 +17,7 @@
       <img
         src="~/assets/svgs/car_3.svg"
         class="mx-auto h-2/3 transition duration-300 ease-in-out hover:scale-105"
+        alt="car"
       />
     </NuxtLink>
     <NuxtLink to="/Bus" class="flex w-full flex-col p-4 md:w-1/3">
@@ -23,6 +25,7 @@
       <img
         src="~/assets/svgs/bus.svg"
         class="mx-auto h-2/3 transition duration-300 ease-in-out hover:scale-105"
+        alt="bus"
       />
     </NuxtLink>
   </div>

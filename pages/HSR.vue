@@ -19,6 +19,7 @@
       :close-on-select="false"
       :searchable="true"
       style="z-index: 10000"
+      aria-label="Select your metro areas"
     />
     <div class="space-y-2 text-center font-bold">
       <p class="mt-5 font-bold">
