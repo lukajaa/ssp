@@ -258,4 +258,13 @@ function scroll() {
     behavior: 'smooth',
   });
 }
+
+useSeoMeta({
+  title: 'Local Organizations',
+  ogTitle: 'Local Organizations',
+  description:
+    'Learn about local organizations that are working to promote a less car-dependent future.',
+  ogDescription:
+    'Learn about local organizations that are working to promote a less car-dependent future.',
+});
 </script>

@@ -19,7 +19,7 @@
       :close-on-select="false"
       :searchable="true"
       style="z-index: 10000"
-      aria-label="Select your metro areas"
+      label="Select your metro areas"
     />
     <div class="space-y-2 text-center font-bold">
       <p class="mt-5 font-bold">
@@ -318,6 +318,15 @@ const networkScore = computed(function () {
   const nodes = selectedCSAs.value.length;
   const multiplier = -5 / (1 + Math.E ** ((2 / 3) * nodes - 5)) + 10;
   return multiplier * score;
+});
+
+useSeoMeta({
+  title: 'National High Speed Rail Model Scorer',
+  ogTitle: 'National High Speed Rail Model Scorer',
+  description:
+    'Choose metro areas and play around to discover the potential of a national high speed rail network.',
+  ogDescription:
+    'Choose metro areas and play around to discover the potential of a national high speed rail network.',
 });
 </script>
 

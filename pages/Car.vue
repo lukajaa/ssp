@@ -229,4 +229,13 @@ function loop() {
   }
   requestAnimationFrame(loop);
 }
+
+useSeoMeta({
+  title: 'Efficiency Simulation',
+  ogTitle: 'Efficiency Simulation',
+  description:
+    'Watch a simulation of the efficiency of different modes of transportation.',
+  ogDescription:
+    'Watch a simulation of the efficiency of different modes of transportation.',
+});
 </script>

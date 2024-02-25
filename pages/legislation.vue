@@ -187,4 +187,13 @@ Sincerely,
 ${name.value}
 `;
 });
+
+useSeoMeta({
+  title: 'Legislation',
+  ogTitle: 'Legislation',
+  description:
+    'Learn about federal legislation and how to contact your representative to voice your support for a less car-dependent future.',
+  ogDescription:
+    'Learn about federal legislation and how to contact your representative to voice your support for a less car-dependent future.',
+});
 </script>
