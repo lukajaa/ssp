@@ -70,15 +70,23 @@
     </UForm> -->
     <div class="mt-4 text-center">
       <p class="mt-4">
-        By
+        Created
+        <a
+          href="/about"
+          target="_blank"
+          class="font-semibold text-blue-400 hover:text-blue-500"
+        >
+          with help
+        </a>
+        by
         <a
           href="https://www.lucaskchang.com/"
           target="_blank"
           class="font-semibold text-blue-400 hover:text-blue-500"
         >
-          Lucas Chang.
+          Lucas Chang
         </a>
-        Illustrations from
+        <!-- Illustrations from
         <a
           href="https://storyset.com/"
           target="_blank"
@@ -93,7 +101,7 @@
           class="font-semibold text-blue-400 hover:text-blue-500"
         >
           Highlights
-        </a>
+        </a> -->
       </p>
       <p>
         Question? Email
