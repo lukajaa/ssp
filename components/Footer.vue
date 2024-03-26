@@ -71,13 +71,12 @@
     <div class="mt-4 text-center">
       <p class="mt-4">
         Created
-        <a
-          href="/about"
-          target="_blank"
+        <NuxtLink
+          to="/about"
           class="font-semibold text-blue-400 hover:text-blue-500"
         >
           with help
-        </a>
+        </NuxtLink>
         by
         <a
           href="https://www.lucaskchang.com/"
