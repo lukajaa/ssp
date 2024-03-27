@@ -87,9 +87,8 @@
         <Map />
       </div>
       <Caption>
-        A map of redlining in San Francisco and Oakland. Red areas were deemed
-        "hazardous", "definitely declining", and were often home to people of
-        color.
+        A map of redlining in San Francisco. Red areas were deemed "hazardous",
+        "definitely declining", and were often home to people of color.
       </Caption>
     </div>
     <div class="flex flex-col items-center md:flex-row">

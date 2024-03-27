@@ -2,10 +2,21 @@
   <div>
     <Hero />
     <IntroFirst />
-    <div class="mx-auto flex items-center">
-      <UButton size="lg" color="green" class="mx-auto" @click="scroll()"
-        >Don't need an overview? Skip right to the action!</UButton
-      >
+    <div class="mx-auto flex flex-row items-center justify-center space-x-4">
+      <div class="flex flex-col">
+        <UButton size="lg" color="green" @click="scroll()"
+          >Don't need an overview? Skip right to the action!</UButton
+        >
+      </div>
+      <div class="flex flex-col">
+        <div class="mx-auto text-center text-2xl">
+          <NuxtLink to="/about">
+            <UButton size="lg" color="blue"
+              >Credits and Mission Statement</UButton
+            ></NuxtLink
+          >
+        </div>
+      </div>
     </div>
     <Intro />
     <Essay />

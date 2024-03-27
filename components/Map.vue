@@ -17,7 +17,6 @@
       name="OpenStreetMap"
     />
     <LImageOverlay :url="imageOverlayUrl" :bounds="bounds" opacity="0.625" />
-    <LImageOverlay :url="imageOverlayURL2" :bounds="bounds2" opacity="0.625" />
   </LMap>
 </template>
 
