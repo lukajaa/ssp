@@ -19,10 +19,10 @@
       <div class="flex w-full flex-col py-4 md:w-2/3">
         <p class="text-5xl font-bold">Early 1900s</p>
         <p class="mt-4 text-lg">
-          Its hard to imagine a world before cars, but it wasn't that long ago
+          It's hard to imagine a world before cars, but it wasn't that long ago
           that city streets were filled with a diverse mix of horse-drawn
           carriages,
-          <PopupCard term="streetcars" /> and pedestrians. In fact, the first
+          <PopupCard term="streetcars" />, and pedestrians. In fact, the first
           automobile was invented in 1885, and it wasn't until the 1920s that
           cars became a common sight on city streets. In the video above, you
           can see the streets of San Francisco in 1906. The idea of sidewalks
@@ -203,7 +203,8 @@
           and bike traffic. On Market Street, one of the biggest streets in SF,
           traffic is closed to all private vehicles. Additionally, the city
           maintains a strong bikeshare and public transit system through MUNI
-          and BART. This is a great example of how cities can adapt to a less
+          (San Francisco Municipal Railway) and BART (Bay Area Rapid Transit).
+          This is a great example of how cities can adapt to a less
           car-dependent future.
         </p>
       </div>
