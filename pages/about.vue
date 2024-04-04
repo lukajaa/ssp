@@ -45,6 +45,14 @@
         <span class="font-black">The Census and SF Gov</span> -- for providing
         the data that made this website.
       </p>
+      <p>
+        <span class="font-black">Storyset and Highlights</span>
+        -- for providing the illustrations and icons used in this website.
+      </p>
+      <p>
+        <span class="font-black">You</span> -- for visiting this website and
+        hopefully learning something new.
+      </p>
     </div>
     <BackButton />
   </div>

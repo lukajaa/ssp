@@ -219,6 +219,31 @@
         />
       </div>
     </div>
+    <div class="flex flex-col md:flex-row">
+      <div
+        class="mx-auto flex w-1/2 flex-row justify-center md:w-1/3 md:flex-col"
+      >
+        <img
+          ref="five"
+          src="~/assets/svgs/happy.svg"
+          class="w-full"
+          alt="refreshed city"
+        />
+      </div>
+      <div class="flex w-full flex-col py-4 md:w-2/3">
+        <p class="text-5xl font-bold">Lasting Effects</p>
+        <p class="mt-4 text-lg">
+          The effects of lessening car dependency are wide ranging. Not only
+          will it reduce pollution and traffic, but it will also increase the
+          quality of life for many people. By investing in public transit and
+          bike networks, cities can create a more equitable and sustainable
+          future. Taking unnecessary cars off the road will also help necessary
+          cars, like emergency and public work vehicles, get to their
+          destinations faster. Ultimately, a less car-dependent future is a
+          future that is better for everyone.
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 
